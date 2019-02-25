@@ -18,7 +18,7 @@ Update the ```pokemonMissing``` const in script.js to match missing mons from yo
 ## Todo
 
 + hide mons if base evolution is caught already
-
++ add styles for smaller screens
 
 
 ## Thanks
