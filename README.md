@@ -2,6 +2,10 @@
 
 Tool to help keep track of remaining mon's to catch/evolve
 
+## Demo
+
+Checkout a demo using my latest dex results: [https://sqyphen.github.io/dex-checker/index.html](https://sqyphen.github.io/dex-checker/index.html)
+
 ## Launch 
 
 - Clone the repo
