@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Poké test</title>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/pokesprite.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+<body>
+	<div class="legend">
+		<div class="legend-item">
+			<div class="square caught"></div>
+			<p>
+				Caught
+			</p>
+		</div>
+		<div class="legend-item">
+			<div class="square missing"></div>
+			<p>
+				Missing
+			</p>
+		</div>
+		<div class="legend-item">
+			<div class="square regional"></div>
+			<p>
+				Regional
+			</p>
+		</div>
+		<div class="legend-item">
+			<div class="square not-in-pokemon-go"></div>
+			<p>
+				Not in Pokémon Go
+			</p>
+		</div>
+	</div>
+	<div class="filters">
+		<form id="filters-form" class="filters-form">
+			<input type="checkbox" id="filter-caught" name="caught" value="caught" checked> Caught
+			<input type="checkbox" id="filter-regional" name="regional" value="regional" checked> Regional
+			<input type="checkbox" id="filter-not-in-pokemon-go" name="not-in-pokemon-go" value="not-in-pokemon-go" checked> Not in Pokémon Go
+			<input type="checkbox" id="filter-have-base-evolution" name="have-base-evolution" value="have-base-evolution" checked> Have Base Evolution
+		</form>
+	</div>
+	<div id="pokedex" class="pokedex">
+		<!-- Populated by JS -->
+	</div>
+	<script src="./assets/pokesprite.min.js"></script>
+	<script src="./assets/pokemon-list.js"></script>
+	<script src="./assets/script.js"></script>
+</body>
+</html>

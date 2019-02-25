@@ -1,0 +1,135 @@
+﻿html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 13px;
+}
+
+span {
+	display: inline-block;
+}
+
+.caught {
+	background: white;
+}
+
+.missing {
+	background: #dc3545;
+}
+
+.regional {
+	background: #ffc107;
+}
+
+.not-in-pokemon-go {
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(66,75,89,1) 47%, rgba(66,75,89,1) 47%, rgba(66,75,89,1) 54%, rgba(255,255,255,1) 54%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 47%,rgba(66,75,89,1) 47%,rgba(66,75,89,1) 47%,rgba(66,75,89,1) 54%,rgba(255,255,255,1) 54%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 47%,rgba(66,75,89,1) 47%,rgba(66,75,89,1) 47%,rgba(66,75,89,1) 54%,rgba(255,255,255,1) 54%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.regional.missing {
+	background: rgb(220,53,69); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(220,53,69,1) 50%, rgba(220,53,69,1) 50%, rgba(255,193,7,1) 50%, rgba(255,193,7,1) 50%, rgba(255,193,7,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(220,53,69,1) 50%,rgba(220,53,69,1) 50%,rgba(255,193,7,1) 50%,rgba(255,193,7,1) 50%,rgba(255,193,7,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(220,53,69,1) 50%,rgba(220,53,69,1) 50%,rgba(255,193,7,1) 50%,rgba(255,193,7,1) 50%,rgba(255,193,7,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc3545', endColorstr='#ffc107',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+/* Filters */
+
+.filters {
+	background-color: white;
+	border-bottom: 1px solid #333;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	height: 30px;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.filters-form {
+	margin-top: 5px;
+}
+
+.filters-form input {
+	margin-left: 20px;
+}
+
+.filters-form input:first-child {
+	margin-left: 0;
+}
+
+
+/* Legend */
+
+.legend {
+	background-color: white;
+	border-top: 1px solid #333;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	height: 40px;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.legend-item {
+	display: inline-block;
+	width: 15%;
+	margin-top: -3px;
+	min-width: 150px;
+}
+
+.legend-item .square {
+	border: 1px solid #666;
+	border-radius: 2px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+.legend-item p {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+
+/* Pokédex */
+
+.pokedex {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.mon {
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	height: 75px;
+	width: 75px;
+	padding: 3px;
+	margin: 3px;
+}
+
+.mon:hover {
+	background-color: #EEE; 
+	border: 1px solid #CCC;
+	cursor: pointer;
+}
+
+.mon .id {
+	font-weight: bold;
+}
