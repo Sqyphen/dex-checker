@@ -14,7 +14,8 @@
         "eng":"Voltorb",
         "jpn":"ビリリダマ",
         "jpn_ro":"Biriridama"
-      }
+      },
+      "base_evolution": 100
     },
     "101":{
       "idx":101,
@@ -31,7 +32,8 @@
         "eng":"Electrode",
         "jpn":"マルマイン",
         "jpn_ro":"Marumine"
-      }
+      },
+      "base_evolution": 100
     },
     "102":{
       "idx":102,
@@ -48,7 +50,8 @@
         "eng":"Exeggcute",
         "jpn":"タマタマ",
         "jpn_ro":"Tamatama"
-      }
+      },
+      "base_evolution": 102
     },
     "103":{
       "idx":103,
@@ -69,6 +72,8 @@
         "jpn":"ナッシー",
         "jpn_ro":"Nassy"
       }
+      ,
+      "base_evolution": 102
     },
     "104":{
       "idx":104,
@@ -86,6 +91,8 @@
         "jpn":"カラカラ",
         "jpn_ro":"Karakara"
       }
+      ,
+      "base_evolution": 104
     },
     "105":{
       "idx":105,
@@ -111,7 +118,8 @@
         "eng":"Marowak",
         "jpn":"ガラガラ",
         "jpn_ro":"Garagara"
-      }
+      },
+      "base_evolution": 104
     },
     "106":{
       "idx":106,
@@ -128,7 +136,8 @@
         "eng":"Hitmonlee",
         "jpn":"サワムラー",
         "jpn_ro":"Sawamular"
-      }
+      },
+      "base_evolution": 236
     },
     "107":{
       "idx":107,
@@ -145,7 +154,8 @@
         "eng":"Hitmonchan",
         "jpn":"エビワラー",
         "jpn_ro":"Ebiwalar"
-      }
+      },
+      "base_evolution": 236
     },
     "108":{
       "idx":108,
@@ -162,7 +172,8 @@
         "eng":"Lickitung",
         "jpn":"ベロリンガ",
         "jpn_ro":"Beroringa"
-      }
+      },
+      "base_evolution": 108
     },
     "109":{
       "idx":109,
@@ -179,7 +190,8 @@
         "eng":"Koffing",
         "jpn":"ドガース",
         "jpn_ro":"Dogars"
-      }
+      },
+      "base_evolution": 109
     },
     "110":{
       "idx":110,
@@ -196,7 +208,8 @@
         "eng":"Weezing",
         "jpn":"マタドガス",
         "jpn_ro":"Matadogas"
-      }
+      },
+      "base_evolution": 110
     },
     "111":{
       "idx":111,
@@ -213,7 +226,8 @@
         "eng":"Rhyhorn",
         "jpn":"サイホーン",
         "jpn_ro":"Sihorn"
-      }
+      },
+      "base_evolution": 111
     },
     "112":{
       "idx":112,
@@ -230,7 +244,8 @@
         "eng":"Rhydon",
         "jpn":"サイドン",
         "jpn_ro":"Sidon"
-      }
+      },
+      "base_evolution": 111
     },
     "113":{
       "idx":113,
@@ -247,7 +262,8 @@
         "eng":"Chansey",
         "jpn":"ラッキー",
         "jpn_ro":"Lucky"
-      }
+      },
+      "base_evolution": 440
     },
     "114":{
       "idx":114,
@@ -264,7 +280,8 @@
         "eng":"Tangela",
         "jpn":"モンジャラ",
         "jpn_ro":"Monjara"
-      }
+      },
+      "base_evolution": 114
     },
     "115":{
       "idx":115,
@@ -284,7 +301,8 @@
         "eng":"Kangaskhan",
         "jpn":"ガルーラ",
         "jpn_ro":"Garura"
-      }
+      },
+      "base_evolution": 115
     },
     "116":{
       "idx":116,
@@ -301,7 +319,8 @@
         "eng":"Horsea",
         "jpn":"タッツー",
         "jpn_ro":"Tattu"
-      }
+      },
+      "base_evolution": 116
     },
     "117":{
       "idx":117,
@@ -318,7 +337,8 @@
         "eng":"Seadra",
         "jpn":"シードラ",
         "jpn_ro":"Seadra"
-      }
+      },
+      "base_evolution": 116
     },
     "118":{
       "idx":118,
@@ -335,7 +355,8 @@
         "eng":"Goldeen",
         "jpn":"トサキント",
         "jpn_ro":"Tosakinto"
-      }
+      },
+      "base_evolution": 118
     },
     "119":{
       "idx":119,
@@ -352,7 +373,8 @@
         "eng":"Seaking",
         "jpn":"アズマオウ",
         "jpn_ro":"Azumao"
-      }
+      },
+      "base_evolution": 118
     },
     "120":{
       "idx":120,
@@ -369,7 +391,8 @@
         "eng":"Staryu",
         "jpn":"ヒトデマン",
         "jpn_ro":"Hitodeman"
-      }
+      },
+      "base_evolution": 120
     },
     "121":{
       "idx":121,
@@ -386,7 +409,8 @@
         "eng":"Starmie",
         "jpn":"スターミー",
         "jpn_ro":"Starmie"
-      }
+      },
+      "base_evolution": 120
     },
     "122":{
       "idx":122,
@@ -403,7 +427,8 @@
         "eng":"Mr. Mime",
         "jpn":"バリヤード",
         "jpn_ro":"Barrierd"
-      }
+      },
+      "base_evolution": 439
     },
     "123":{
       "idx":123,
@@ -420,7 +445,8 @@
         "eng":"Scyther",
         "jpn":"ストライク",
         "jpn_ro":"Strike"
-      }
+      },
+      "base_evolution": 123
     },
     "124":{
       "idx":124,
@@ -437,7 +463,8 @@
         "eng":"Jynx",
         "jpn":"ルージュラ",
         "jpn_ro":"Rougela"
-      }
+      },
+      "base_evolution": 238
     },
     "125":{
       "idx":125,
@@ -454,7 +481,8 @@
         "eng":"Electabuzz",
         "jpn":"エレブー",
         "jpn_ro":"Eleboo"
-      }
+      },
+      "base_evolution": 239
     },
     "126":{
       "idx":126,
@@ -471,7 +499,8 @@
         "eng":"Magmar",
         "jpn":"ブーバー",
         "jpn_ro":"Boober"
-      }
+      },
+      "base_evolution": 240
     },
     "127":{
       "idx":127,
@@ -491,7 +520,8 @@
         "eng":"Pinsir",
         "jpn":"カイロス",
         "jpn_ro":"Kailios"
-      }
+      },
+      "base_evolution": 127
     },
     "128":{
       "idx":128,
@@ -508,7 +538,8 @@
         "eng":"Tauros",
         "jpn":"ケンタロス",
         "jpn_ro":"Kentauros"
-      }
+      },
+      "base_evolution": 128
     },
     "129":{
       "idx":129,
@@ -525,7 +556,8 @@
         "eng":"Magikarp",
         "jpn":"コイキング",
         "jpn_ro":"Koiking"
-      }
+      },
+      "base_evolution": 129
     },
     "130":{
       "idx":130,
@@ -545,7 +577,8 @@
         "eng":"Gyarados",
         "jpn":"ギャラドス",
         "jpn_ro":"Gyarados"
-      }
+      },
+      "base_evolution": 129
     },
     "131":{
       "idx":131,
@@ -562,7 +595,8 @@
         "eng":"Lapras",
         "jpn":"ラプラス",
         "jpn_ro":"Laplace"
-      }
+      },
+      "base_evolution": 131
     },
     "132":{
       "idx":132,
@@ -579,7 +613,8 @@
         "eng":"Ditto",
         "jpn":"メタモン",
         "jpn_ro":"Metamon"
-      }
+      },
+      "base_evolution": 131
     },
     "133":{
       "idx":133,
@@ -596,7 +631,8 @@
         "eng":"Eevee",
         "jpn":"イーブイ",
         "jpn_ro":"Eievui"
-      }
+      },
+      "base_evolution": 133
     },
     "134":{
       "idx":134,
@@ -613,7 +649,8 @@
         "eng":"Vaporeon",
         "jpn":"シャワーズ",
         "jpn_ro":"Showers"
-      }
+      },
+      "base_evolution": 133
     },
     "135":{
       "idx":135,
@@ -630,7 +667,8 @@
         "eng":"Jolteon",
         "jpn":"サンダース",
         "jpn_ro":"Thunders"
-      }
+      },
+      "base_evolution": 133
     },
     "136":{
       "idx":136,
@@ -647,7 +685,8 @@
         "eng":"Flareon",
         "jpn":"ブースター",
         "jpn_ro":"Booster"
-      }
+      },
+      "base_evolution": 133
     },
     "137":{
       "idx":137,
@@ -664,7 +703,8 @@
         "eng":"Porygon",
         "jpn":"ポリゴン",
         "jpn_ro":"Porygon/Polygon"
-      }
+      },
+      "base_evolution": 137
     },
     "138":{
       "idx":138,
@@ -681,7 +721,8 @@
         "eng":"Omanyte",
         "jpn":"オムナイト",
         "jpn_ro":"Omnite"
-      }
+      },
+      "base_evolution": 138
     },
     "139":{
       "idx":139,
@@ -698,7 +739,8 @@
         "eng":"Omastar",
         "jpn":"オムスター",
         "jpn_ro":"Omstar"
-      }
+      },
+      "base_evolution": 138
     },
     "140":{
       "idx":140,
@@ -715,7 +757,8 @@
         "eng":"Kabuto",
         "jpn":"カブト",
         "jpn_ro":"Kabuto"
-      }
+      },
+      "base_evolution": 140
     },
     "141":{
       "idx":141,
@@ -732,7 +775,8 @@
         "eng":"Kabutops",
         "jpn":"カブトプス",
         "jpn_ro":"Kabutops"
-      }
+      },
+      "base_evolution": 140
     },
     "142":{
       "idx":142,
@@ -752,7 +796,8 @@
         "eng":"Aerodactyl",
         "jpn":"プテラ",
         "jpn_ro":"Ptera"
-      }
+      },
+      "base_evolution": 142
     },
     "143":{
       "idx":143,
@@ -769,7 +814,8 @@
         "eng":"Snorlax",
         "jpn":"カビゴン",
         "jpn_ro":"Kabigon"
-      }
+      },
+      "base_evolution": 446
     },
     "144":{
       "idx":144,
@@ -786,7 +832,8 @@
         "eng":"Articuno",
         "jpn":"フリーザー",
         "jpn_ro":"Freezer"
-      }
+      },
+      "base_evolution": 144
     },
     "145":{
       "idx":145,
@@ -803,7 +850,8 @@
         "eng":"Zapdos",
         "jpn":"サンダー",
         "jpn_ro":"Thunder"
-      }
+      },
+      "base_evolution": 145
     },
     "146":{
       "idx":146,
@@ -820,7 +868,8 @@
         "eng":"Moltres",
         "jpn":"ファイヤー",
         "jpn_ro":"Fire"
-      }
+      },
+      "base_evolution": 146
     },
     "147":{
       "idx":147,
@@ -837,7 +886,8 @@
         "eng":"Dratini",
         "jpn":"ミニリュウ",
         "jpn_ro":"Miniryu"
-      }
+      },
+      "base_evolution": 147
     },
     "148":{
       "idx":148,
@@ -854,7 +904,8 @@
         "eng":"Dragonair",
         "jpn":"ハクリュー",
         "jpn_ro":"Hakuryu"
-      }
+      },
+      "base_evolution": 147
     },
     "149":{
       "idx":149,
@@ -871,7 +922,8 @@
         "eng":"Dragonite",
         "jpn":"カイリュー",
         "jpn_ro":"Kairyu"
-      }
+      },
+      "base_evolution": 147
     },
     "150":{
       "idx":150,
@@ -894,7 +946,8 @@
         "eng":"Mewtwo",
         "jpn":"ミュウツー",
         "jpn_ro":"Mewtwo"
-      }
+      },
+      "base_evolution": 150
     },
     "151":{
       "idx":151,
@@ -911,7 +964,8 @@
         "eng":"Mew",
         "jpn":"ミュウ",
         "jpn_ro":"Mew"
-      }
+      },
+      "base_evolution": 151
     },
     "152":{
       "idx":152,
@@ -982,7 +1036,8 @@
         "eng":"Cyndaquil",
         "jpn":"ヒノアラシ",
         "jpn_ro":"Hinoarashi"
-      }
+      },
+      "base_evolution": 155
     },
     "156":{
       "idx":156,
@@ -999,7 +1054,8 @@
         "eng":"Quilava",
         "jpn":"マグマラシ",
         "jpn_ro":"Magmarashi"
-      }
+      },
+      "base_evolution": 155
     },
     "157":{
       "idx":157,
@@ -1016,7 +1072,8 @@
         "eng":"Typhlosion",
         "jpn":"バクフーン",
         "jpn_ro":"Bakphoon"
-      }
+      },
+      "base_evolution": 155
     },
     "158":{
       "idx":158,
@@ -1033,7 +1090,8 @@
         "eng":"Totodile",
         "jpn":"ワニノコ",
         "jpn_ro":"Waninoko"
-      }
+      },
+      "base_evolution": 158
     },
     "159":{
       "idx":159,
@@ -1050,7 +1108,8 @@
         "eng":"Croconaw",
         "jpn":"アリゲイツ",
         "jpn_ro":"Alligates"
-      }
+      },
+      "base_evolution": 158
     },
     "160":{
       "idx":160,
@@ -1067,7 +1126,8 @@
         "eng":"Feraligatr",
         "jpn":"オーダイル",
         "jpn_ro":"Ordile/Ordail"
-      }
+      },
+      "base_evolution": 158
     },
     "161":{
       "idx":161,
@@ -1084,7 +1144,8 @@
         "eng":"Sentret",
         "jpn":"オタチ",
         "jpn_ro":"Otachi"
-      }
+      },
+      "base_evolution": 161
     },
     "162":{
       "idx":162,
@@ -1101,7 +1162,8 @@
         "eng":"Furret",
         "jpn":"オオタチ",
         "jpn_ro":"Ōtachi"
-      }
+      },
+      "base_evolution": 161
     },
     "163":{
       "idx":163,
@@ -1118,7 +1180,8 @@
         "eng":"Hoothoot",
         "jpn":"ホーホー",
         "jpn_ro":"Hōhō"
-      }
+      },
+      "base_evolution": 163
     },
     "164":{
       "idx":164,
@@ -1135,7 +1198,8 @@
         "eng":"Noctowl",
         "jpn":"ヨルノズク",
         "jpn_ro":"Yorunozuku"
-      }
+      },
+      "base_evolution": 163
     },
     "165":{
       "idx":165,
@@ -1152,7 +1216,8 @@
         "eng":"Ledyba",
         "jpn":"レディバ",
         "jpn_ro":"Rediba"
-      }
+      },
+      "base_evolution": 165
     },
     "166":{
       "idx":166,
@@ -1169,7 +1234,8 @@
         "eng":"Ledian",
         "jpn":"レディアン",
         "jpn_ro":"Redian"
-      }
+      },
+      "base_evolution": 165
     },
     "167":{
       "idx":167,
@@ -1186,7 +1252,8 @@
         "eng":"Spinarak",
         "jpn":"イトマル",
         "jpn_ro":"Itomaru"
-      }
+      },
+      "base_evolution": 167
     },
     "168":{
       "idx":168,
@@ -1203,7 +1270,8 @@
         "eng":"Ariados",
         "jpn":"アリアドス",
         "jpn_ro":"Ariadosu"
-      }
+      },
+      "base_evolution": 167
     },
     "169":{
       "idx":169,
@@ -1220,7 +1288,8 @@
         "eng":"Crobat",
         "jpn":"クロバット",
         "jpn_ro":"Crobat"
-      }
+      },
+      "base_evolution": 41
     },
     "170":{
       "idx":170,
@@ -1237,7 +1306,8 @@
         "eng":"Chinchou",
         "jpn":"チョンチー",
         "jpn_ro":"Chonchī"
-      }
+      },
+      "base_evolution": 170
     },
     "171":{
       "idx":171,
@@ -1254,7 +1324,8 @@
         "eng":"Lanturn",
         "jpn":"ランターン",
         "jpn_ro":"Rantān"
-      }
+      },
+      "base_evolution": 170
     },
     "172":{
       "idx":172,
@@ -1274,7 +1345,8 @@
         "eng":"Pichu",
         "jpn":"ピチュー",
         "jpn_ro":"Pichu"
-      }
+      },
+      "base_evolution": 172
     },
     "173":{
       "idx":173,
@@ -1291,7 +1363,8 @@
         "eng":"Cleffa",
         "jpn":"ピィ",
         "jpn_ro":"Py"
-      }
+      },
+      "base_evolution": 173
     },
     "174":{
       "idx":174,
@@ -1308,7 +1381,8 @@
         "eng":"Igglybuff",
         "jpn":"ププリン",
         "jpn_ro":"Pupurin"
-      }
+      },
+      "base_evolution": 174
     },
     "175":{
       "idx":175,
@@ -1325,7 +1399,8 @@
         "eng":"Togepi",
         "jpn":"トゲピー",
         "jpn_ro":"Togepy"
-      }
+      },
+      "base_evolution": 175
     },
     "176":{
       "idx":176,
@@ -1342,7 +1417,8 @@
         "eng":"Togetic",
         "jpn":"トゲチック",
         "jpn_ro":"Togechick"
-      }
+      },
+      "base_evolution": 175
     },
     "177":{
       "idx":177,
@@ -1359,7 +1435,8 @@
         "eng":"Natu",
         "jpn":"ネイティ",
         "jpn_ro":"Neiti"
-      }
+      },
+      "base_evolution": 177
     },
     "178":{
       "idx":178,
@@ -1376,7 +1453,8 @@
         "eng":"Xatu",
         "jpn":"ネイティオ",
         "jpn_ro":"Neitio"
-      }
+      },
+      "base_evolution": 177
     },
     "179":{
       "idx":179,
@@ -1393,7 +1471,8 @@
         "eng":"Mareep",
         "jpn":"メリープ",
         "jpn_ro":"Merīpu"
-      }
+      },
+      "base_evolution": 179
     },
     "180":{
       "idx":180,
@@ -1410,7 +1489,8 @@
         "eng":"Flaaffy",
         "jpn":"モココ",
         "jpn_ro":"Mokoko"
-      }
+      },
+      "base_evolution": 179
     },
     "181":{
       "idx":181,
@@ -1430,7 +1510,8 @@
         "eng":"Ampharos",
         "jpn":"デンリュウ",
         "jpn_ro":"Denryū"
-      }
+      },
+      "base_evolution": 179
     },
     "182":{
       "idx":182,
@@ -1447,7 +1528,8 @@
         "eng":"Bellossom",
         "jpn":"キレイハナ",
         "jpn_ro":"Kireihana"
-      }
+      },
+      "base_evolution": 43
     },
     "183":{
       "idx":183,
@@ -1464,7 +1546,8 @@
         "eng":"Marill",
         "jpn":"マリル",
         "jpn_ro":"Maril"
-      }
+      },
+      "base_evolution": 298
     },
     "184":{
       "idx":184,
@@ -1481,7 +1564,8 @@
         "eng":"Azumarill",
         "jpn":"マリルリ",
         "jpn_ro":"Marilli"
-      }
+      },
+      "base_evolution": 298
     },
     "185":{
       "idx":185,
@@ -1498,7 +1582,8 @@
         "eng":"Sudowoodo",
         "jpn":"ウソッキー",
         "jpn_ro":"Usokkie"
-      }
+      },
+      "base_evolution": 438
     },
     "186":{
       "idx":186,
@@ -1515,7 +1600,8 @@
         "eng":"Politoed",
         "jpn":"ニョロトノ",
         "jpn_ro":"Nyorotono"
-      }
+      },
+      "base_evolution": 60
     },
     "187":{
       "idx":187,
@@ -1532,7 +1618,8 @@
         "eng":"Hoppip",
         "jpn":"ハネッコ",
         "jpn_ro":"Hanecco"
-      }
+      },
+      "base_evolution": 187
     },
     "188":{
       "idx":188,
@@ -1549,7 +1636,8 @@
         "eng":"Skiploom",
         "jpn":"ポポッコ",
         "jpn_ro":"Popokko"
-      }
+      },
+      "base_evolution": 187
     },
     "189":{
       "idx":189,
@@ -1566,7 +1654,8 @@
         "eng":"Jumpluff",
         "jpn":"ワタッコ",
         "jpn_ro":"Watacco"
-      }
+      },
+      "base_evolution": 187
     },
     "190":{
       "idx":190,
@@ -1583,7 +1672,8 @@
         "eng":"Aipom",
         "jpn":"エイパム",
         "jpn_ro":"Eipam"
-      }
+      },
+      "base_evolution": 190
     },
     "191":{
       "idx":191,
@@ -1600,7 +1690,8 @@
         "eng":"Sunkern",
         "jpn":"ヒマナッツ",
         "jpn_ro":"Himanattsu"
-      }
+      },
+      "base_evolution": 191
     },
     "192":{
       "idx":192,
@@ -1617,7 +1708,8 @@
         "eng":"Sunflora",
         "jpn":"キマワリ",
         "jpn_ro":"Kimawari"
-      }
+      },
+      "base_evolution": 191
     },
     "193":{
       "idx":193,
@@ -1634,7 +1726,8 @@
         "eng":"Yanma",
         "jpn":"ヤンヤンマ",
         "jpn_ro":"Yanyanma"
-      }
+      },
+      "base_evolution": 193
     },
     "194":{
       "idx":194,
@@ -1651,7 +1744,8 @@
         "eng":"Wooper",
         "jpn":"ウパー",
         "jpn_ro":"Upah"
-      }
+      },
+      "base_evolution": 194
     },
     "195":{
       "idx":195,
@@ -1668,7 +1762,8 @@
         "eng":"Quagsire",
         "jpn":"ヌオー",
         "jpn_ro":"Nuō"
-      }
+      },
+      "base_evolution": 194
     },
     "196":{
       "idx":196,
@@ -1685,7 +1780,8 @@
         "eng":"Espeon",
         "jpn":"エーフィ",
         "jpn_ro":"Eifie"
-      }
+      },
+      "base_evolution": 133
     },
     "197":{
       "idx":197,
@@ -1702,7 +1798,8 @@
         "eng":"Umbreon",
         "jpn":"ブラッキー",
         "jpn_ro":"Blacky"
-      }
+      },
+      "base_evolution": 133
     },
     "198":{
       "idx":198,
@@ -1719,7 +1816,8 @@
         "eng":"Murkrow",
         "jpn":"ヤミカラス",
         "jpn_ro":"Yamikarasu"
-      }
+      },
+      "base_evolution": 198
     },
     "199":{
       "idx":199,
@@ -1736,7 +1834,8 @@
         "eng":"Slowking",
         "jpn":"ヤドキング",
         "jpn_ro":"Yadoking"
-      }
+      },
+      "base_evolution": 79
     },
     "200":{
       "idx":200,
@@ -1753,7 +1852,8 @@
         "eng":"Misdreavus",
         "jpn":"ムウマ",
         "jpn_ro":"Muma"
-      }
+      },
+      "base_evolution": 200
     },
     "201":{
       "idx":201,
@@ -1854,7 +1954,8 @@
         "eng":"Unown",
         "jpn":"アンノーン",
         "jpn_ro":"Unknown"
-      }
+      },
+      "base_evolution": 201
     },
     "202":{
       "idx":202,
@@ -1871,7 +1972,8 @@
         "eng":"Wobbuffet",
         "jpn":"ソーナンス",
         "jpn_ro":"Sonans"
-      }
+      },
+      "base_evolution": 360
     },
     "203":{
       "idx":203,
@@ -1888,7 +1990,8 @@
         "eng":"Girafarig",
         "jpn":"キリンリキ",
         "jpn_ro":"Kirinriki"
-      }
+      },
+      "base_evolution": 203
     },
     "204":{
       "idx":204,
@@ -1905,7 +2008,8 @@
         "eng":"Pineco",
         "jpn":"クヌギダマ",
         "jpn_ro":"Kunugidama"
-      }
+      },
+      "base_evolution": 204
     },
     "205":{
       "idx":205,
@@ -1922,7 +2026,8 @@
         "eng":"Forretress",
         "jpn":"フォレトス",
         "jpn_ro":"Foretosu"
-      }
+      },
+      "base_evolution": 204
     },
     "206":{
       "idx":206,
@@ -1940,6 +2045,8 @@
         "jpn":"ノコッチ",
         "jpn_ro":"Nokotchi"
       }
+      ,
+      "base_evolution": 206
     },
     "207":{
       "idx":207,
@@ -1956,7 +2063,8 @@
         "eng":"Gligar",
         "jpn":"グライガー",
         "jpn_ro":"Gliger"
-      }
+      },
+      "base_evolution": 207
     },
     "208":{
       "idx":208,
@@ -1976,7 +2084,8 @@
         "eng":"Steelix",
         "jpn":"ハガネール",
         "jpn_ro":"Haganeil"
-      }
+      },
+      "base_evolution": 95
     },
     "209":{
       "idx":209,
@@ -1993,7 +2102,8 @@
         "eng":"Snubbull",
         "jpn":"ブルー",
         "jpn_ro":"Burū"
-      }
+      },
+      "base_evolution": 209
     },
     "210":{
       "idx":210,
@@ -2010,7 +2120,8 @@
         "eng":"Granbull",
         "jpn":"グランブル",
         "jpn_ro":"Guranburu"
-      }
+      },
+      "base_evolution": 209
     },
     "211":{
       "idx":211,
@@ -2027,7 +2138,8 @@
         "eng":"Qwilfish",
         "jpn":"ハリーセン",
         "jpn_ro":"Harīsen"
-      }
+      },
+      "base_evolution": 211
     },
     "212":{
       "idx":212,
@@ -2047,7 +2159,8 @@
         "eng":"Scizor",
         "jpn":"ハッサム",
         "jpn_ro":"Hassam"
-      }
+      },
+      "base_evolution": 123
     },
     "213":{
       "idx":213,
@@ -2064,7 +2177,8 @@
         "eng":"Shuckle",
         "jpn":"ツボツボ",
         "jpn_ro":"Tsubotsubo"
-      }
+      },
+      "base_evolution": 213
     },
     "214":{
       "idx":214,
@@ -2084,7 +2198,8 @@
         "eng":"Heracross",
         "jpn":"ヘラクロス",
         "jpn_ro":"Heracros"
-      }
+      },
+      "base_evolution": 214
     },
     "215":{
       "idx":215,
@@ -2101,7 +2216,8 @@
         "eng":"Sneasel",
         "jpn":"ニューラ",
         "jpn_ro":"Nyūra"
-      }
+      },
+      "base_evolution": 215
     },
     "216":{
       "idx":216,
@@ -2118,7 +2234,8 @@
         "eng":"Teddiursa",
         "jpn":"ヒメグマ",
         "jpn_ro":"Himeguma"
-      }
+      },
+      "base_evolution": 216
     },
     "217":{
       "idx":217,
@@ -2135,7 +2252,8 @@
         "eng":"Ursaring",
         "jpn":"リングマ",
         "jpn_ro":"Ringuma"
-      }
+      },
+      "base_evolution": 216
     },
     "218":{
       "idx":218,
@@ -2152,7 +2270,8 @@
         "eng":"Slugma",
         "jpn":"マグマッグ",
         "jpn_ro":"Magumaggu"
-      }
+      },
+      "base_evolution": 218
     },
     "219":{
       "idx":219,
@@ -2169,7 +2288,8 @@
         "eng":"Magcargo",
         "jpn":"マグカルゴ",
         "jpn_ro":"Magukarugo"
-      }
+      },
+      "base_evolution": 218
     },
     "220":{
       "idx":220,
@@ -2186,7 +2306,8 @@
         "eng":"Swinub",
         "jpn":"ウリムー",
         "jpn_ro":"Urimū"
-      }
+      },
+      "base_evolution": 220
     },
     "221":{
       "idx":221,
@@ -2203,7 +2324,8 @@
         "eng":"Piloswine",
         "jpn":"イノムー",
         "jpn_ro":"Inomū"
-      }
+      },
+      "base_evolution": 220
     },
     "222":{
       "idx":222,
@@ -2220,7 +2342,8 @@
         "eng":"Corsola",
         "jpn":"サニーゴ",
         "jpn_ro":"Sanīgo"
-      }
+      },
+      "base_evolution": 222
     },
     "223":{
       "idx":223,
@@ -2237,7 +2360,8 @@
         "eng":"Remoraid",
         "jpn":"テッポウオ",
         "jpn_ro":"Teppōo"
-      }
+      },
+      "base_evolution": 223
     },
     "224":{
       "idx":224,
@@ -2254,7 +2378,8 @@
         "eng":"Octillery",
         "jpn":"オクタン",
         "jpn_ro":"Okutan"
-      }
+      },
+      "base_evolution": 223
     },
     "225":{
       "idx":225,
@@ -2271,7 +2396,8 @@
         "eng":"Delibird",
         "jpn":"デリバード",
         "jpn_ro":"Delibird"
-      }
+      },
+      "base_evolution": 225
     },
     "226":{
       "idx":226,
@@ -2288,7 +2414,8 @@
         "eng":"Mantine",
         "jpn":"マンタイン",
         "jpn_ro":"Mantain"
-      }
+      },
+      "base_evolution": 226
     },
     "227":{
       "idx":227,
@@ -2305,7 +2432,8 @@
         "eng":"Skarmory",
         "jpn":"エアームド",
         "jpn_ro":"Airmd"
-      }
+      },
+      "base_evolution": 227
     },
     "228":{
       "idx":228,
@@ -2322,7 +2450,8 @@
         "eng":"Houndour",
         "jpn":"デルビル",
         "jpn_ro":"Delvil"
-      }
+      },
+      "base_evolution": 228
     },
     "229":{
       "idx":229,
@@ -2342,7 +2471,8 @@
         "eng":"Houndoom",
         "jpn":"ヘルガー",
         "jpn_ro":"Hellgar"
-      }
+      },
+      "base_evolution": 228
     },
     "230":{
       "idx":230,
@@ -2359,7 +2489,8 @@
         "eng":"Kingdra",
         "jpn":"キングドラ",
         "jpn_ro":"Kingudora"
-      }
+      },
+      "base_evolution": 116
     },
     "231":{
       "idx":231,
@@ -2376,7 +2507,8 @@
         "eng":"Phanpy",
         "jpn":"ゴマゾウ",
         "jpn_ro":"Gomazou"
-      }
+      },
+      "base_evolution": 231
     },
     "232":{
       "idx":232,
@@ -2393,7 +2525,8 @@
         "eng":"Donphan",
         "jpn":"ドンファン",
         "jpn_ro":"Donfan"
-      }
+      },
+      "base_evolution": 231
     },
     "233":{
       "idx":233,
@@ -2410,7 +2543,8 @@
         "eng":"Porygon2",
         "jpn":"ポリゴン2",
         "jpn_ro":"Porygon 2"
-      }
+      },
+      "base_evolution": 137
     },
     "234":{
       "idx":234,
@@ -2427,7 +2561,8 @@
         "eng":"Stantler",
         "jpn":"オドシシ",
         "jpn_ro":"Odoshishi"
-      }
+      },
+      "base_evolution": 234
     },
     "235":{
       "idx":235,
@@ -2444,7 +2579,8 @@
         "eng":"Smeargle",
         "jpn":"ドーブル",
         "jpn_ro":"Doble"
-      }
+      },
+      "base_evolution": 235
     },
     "236":{
       "idx":236,
@@ -2461,7 +2597,8 @@
         "eng":"Tyrogue",
         "jpn":"バルキー",
         "jpn_ro":"Barukī"
-      }
+      },
+      "base_evolution": 236
     },
     "237":{
       "idx":237,
@@ -2478,7 +2615,8 @@
         "eng":"Hitmontop",
         "jpn":"カポエラー",
         "jpn_ro":"Kapoerer"
-      }
+      },
+      "base_evolution": 236
     },
     "238":{
       "idx":238,
@@ -2495,7 +2633,8 @@
         "eng":"Smoochum",
         "jpn":"ムチュール",
         "jpn_ro":"Muchul"
-      }
+      },
+      "base_evolution": 238
     },
     "239":{
       "idx":239,
@@ -2512,7 +2651,8 @@
         "eng":"Elekid",
         "jpn":"エレキッド",
         "jpn_ro":"Erekiddo"
-      }
+      },
+      "base_evolution": 239
     },
     "240":{
       "idx":240,
@@ -2529,7 +2669,8 @@
         "eng":"Magby",
         "jpn":"ブビィ",
         "jpn_ro":"Bubii"
-      }
+      },
+      "base_evolution": 240
     },
     "241":{
       "idx":241,
@@ -2546,7 +2687,8 @@
         "eng":"Miltank",
         "jpn":"ミルタンク",
         "jpn_ro":"Miltank"
-      }
+      },
+      "base_evolution": 241
     },
     "242":{
       "idx":242,
@@ -2563,7 +2705,8 @@
         "eng":"Blissey",
         "jpn":"ハピナス",
         "jpn_ro":"Happinas"
-      }
+      },
+      "base_evolution": 242
     },
     "243":{
       "idx":243,
@@ -2580,7 +2723,8 @@
         "eng":"Raikou",
         "jpn":"ライコウ",
         "jpn_ro":"Raikou"
-      }
+      },
+      "base_evolution": 243
     },
     "244":{
       "idx":244,
@@ -2597,7 +2741,8 @@
         "eng":"Entei",
         "jpn":"エンテイ",
         "jpn_ro":"Entei"
-      }
+      },
+      "base_evolution": 244
     },
     "245":{
       "idx":245,
@@ -2614,7 +2759,8 @@
         "eng":"Suicune",
         "jpn":"スイクン",
         "jpn_ro":"Suicune"
-      }
+      },
+      "base_evolution": 245
     },
     "246":{
       "idx":246,
@@ -2631,7 +2777,8 @@
         "eng":"Larvitar",
         "jpn":"ヨーギラス",
         "jpn_ro":"Yōgirasu"
-      }
+      },
+      "base_evolution": 246
     },
     "247":{
       "idx":247,
@@ -2648,7 +2795,8 @@
         "eng":"Pupitar",
         "jpn":"サナギラス",
         "jpn_ro":"Sanagirasu"
-      }
+      },
+      "base_evolution": 246
     },
     "248":{
       "idx":248,
@@ -2668,7 +2816,8 @@
         "eng":"Tyranitar",
         "jpn":"バンギラス",
         "jpn_ro":"Bangiras"
-      }
+      },
+      "base_evolution": 246
     },
     "249":{
       "idx":249,
@@ -2685,7 +2834,8 @@
         "eng":"Lugia",
         "jpn":"ルギア",
         "jpn_ro":"Lugia"
-      }
+      },
+      "base_evolution": 249
     },
     "250":{
       "idx":250,
@@ -2702,7 +2852,8 @@
         "eng":"Ho-Oh",
         "jpn":"ホウオウ",
         "jpn_ro":"Houou"
-      }
+      },
+      "base_evolution": 250
     },
     "251":{
       "idx":251,
@@ -2719,7 +2870,8 @@
         "eng":"Celebi",
         "jpn":"セレビィ",
         "jpn_ro":"Celebi"
-      }
+      },
+      "base_evolution": 251
     },
     "252":{
       "idx":252,
@@ -2736,7 +2888,8 @@
         "eng":"Treecko",
         "jpn":"キモリ",
         "jpn_ro":"Kimori"
-      }
+      },
+      "base_evolution": 252
     },
     "253":{
       "idx":253,
@@ -2753,7 +2906,8 @@
         "eng":"Grovyle",
         "jpn":"ジュプトル",
         "jpn_ro":"Juptile"
-      }
+      },
+      "base_evolution": 252
     },
     "254":{
       "idx":254,
@@ -2773,7 +2927,8 @@
         "eng":"Sceptile",
         "jpn":"ジュカイン",
         "jpn_ro":"Jukain"
-      }
+      },
+      "base_evolution": 252
     },
     "255":{
       "idx":255,
@@ -2790,7 +2945,8 @@
         "eng":"Torchic",
         "jpn":"アチャモ",
         "jpn_ro":"Achamo"
-      }
+      },
+      "base_evolution": 255
     },
     "256":{
       "idx":256,
@@ -2807,7 +2963,8 @@
         "eng":"Combusken",
         "jpn":"ワカシャモ",
         "jpn_ro":"Wakasyamo"
-      }
+      },
+      "base_evolution": 255
     },
     "257":{
       "idx":257,
@@ -2827,7 +2984,8 @@
         "eng":"Blaziken",
         "jpn":"バシャーモ",
         "jpn_ro":"Bursyamo"
-      }
+      },
+      "base_evolution": 255
     },
     "258":{
       "idx":258,
@@ -2844,7 +3002,8 @@
         "eng":"Mudkip",
         "jpn":"ミズゴロウ",
         "jpn_ro":"Mizugorou"
-      }
+      },
+      "base_evolution": 258
     },
     "259":{
       "idx":259,
@@ -2861,7 +3020,8 @@
         "eng":"Marshtomp",
         "jpn":"ヌマクロー",
         "jpn_ro":"Numacraw"
-      }
+      },
+      "base_evolution": 258
     },
     "260":{
       "idx":260,
@@ -2881,7 +3041,8 @@
         "eng":"Swampert",
         "jpn":"ラグラージ",
         "jpn_ro":"Laglarge"
-      }
+      },
+      "base_evolution": 258
     },
     "261":{
       "idx":261,
@@ -2898,7 +3059,8 @@
         "eng":"Poochyena",
         "jpn":"ポチエナ",
         "jpn_ro":"Pochiena"
-      }
+      },
+      "base_evolution": 261
     },
     "262":{
       "idx":262,
@@ -2915,7 +3077,8 @@
         "eng":"Mightyena",
         "jpn":"グラエナ",
         "jpn_ro":"Graena"
-      }
+      },
+      "base_evolution": 261
     },
     "263":{
       "idx":263,
@@ -2932,7 +3095,8 @@
         "eng":"Zigzagoon",
         "jpn":"ジグザグマ",
         "jpn_ro":"Jiguzaguma"
-      }
+      },
+      "base_evolution": 263
     },
     "264":{
       "idx":264,
@@ -2949,7 +3113,8 @@
         "eng":"Linoone",
         "jpn":"マッスグマ",
         "jpn_ro":"Massuguma"
-      }
+      },
+      "base_evolution": 263
     },
     "265":{
       "idx":265,
@@ -2966,7 +3131,8 @@
         "eng":"Wurmple",
         "jpn":"ケムッソ",
         "jpn_ro":"Kemusso"
-      }
+      },
+      "base_evolution": 265
     },
     "266":{
       "idx":266,
@@ -2983,7 +3149,8 @@
         "eng":"Silcoon",
         "jpn":"カラサリス",
         "jpn_ro":"Karasarisu"
-      }
+      },
+      "base_evolution": 265
     },
     "267":{
       "idx":267,
@@ -3000,7 +3167,8 @@
         "eng":"Beautifly",
         "jpn":"アゲハント",
         "jpn_ro":"Agehunt"
-      }
+      },
+      "base_evolution": 265
     },
     "268":{
       "idx":268,
@@ -3017,7 +3185,8 @@
         "eng":"Cascoon",
         "jpn":"マユルド",
         "jpn_ro":"Mayurudo"
-      }
+      },
+      "base_evolution": 265
     },
     "269":{
       "idx":269,
@@ -3034,7 +3203,8 @@
         "eng":"Dustox",
         "jpn":"ドクケイル",
         "jpn_ro":"Dokukeiru"
-      }
+      },
+      "base_evolution": 265
     },
     "270":{
       "idx":270,
@@ -3051,7 +3221,8 @@
         "eng":"Lotad",
         "jpn":"ハスボー",
         "jpn_ro":"Hassboh"
-      }
+      },
+      "base_evolution": 270
     },
     "271":{
       "idx":271,
@@ -3068,7 +3239,8 @@
         "eng":"Lombre",
         "jpn":"ハスブレロ",
         "jpn_ro":"Hasubrero"
-      }
+      },
+      "base_evolution": 270
     },
     "272":{
       "idx":272,
@@ -3085,7 +3257,8 @@
         "eng":"Ludicolo",
         "jpn":"ルンパッパ",
         "jpn_ro":"Runpappa"
-      }
+      },
+      "base_evolution": 270
     },
     "273":{
       "idx":273,
@@ -3102,7 +3275,8 @@
         "eng":"Seedot",
         "jpn":"タネボー",
         "jpn_ro":"Tanebō"
-      }
+      },
+      "base_evolution": 273
     },
     "274":{
       "idx":274,
@@ -3119,7 +3293,8 @@
         "eng":"Nuzleaf",
         "jpn":"コノハナ",
         "jpn_ro":"Konohana"
-      }
+      },
+      "base_evolution": 273
     },
     "275":{
       "idx":275,
@@ -3136,7 +3311,8 @@
         "eng":"Shiftry",
         "jpn":"ダーテング",
         "jpn_ro":"Dirteng"
-      }
+      },
+      "base_evolution": 273
     },
     "276":{
       "idx":276,
@@ -3153,7 +3329,8 @@
         "eng":"Taillow",
         "jpn":"スバメ",
         "jpn_ro":"Subame"
-      }
+      },
+      "base_evolution": 276
     },
     "277":{
       "idx":277,
@@ -3170,7 +3347,8 @@
         "eng":"Swellow",
         "jpn":"オオスバメ",
         "jpn_ro":"Ohsubame"
-      }
+      },
+      "base_evolution": 276
     },
     "278":{
       "idx":278,
@@ -3187,7 +3365,8 @@
         "eng":"Wingull",
         "jpn":"キャモメ",
         "jpn_ro":"Kyamome"
-      }
+      },
+      "base_evolution": 278
     },
     "279":{
       "idx":279,
@@ -3204,7 +3383,8 @@
         "eng":"Pelipper",
         "jpn":"ペリッパー",
         "jpn_ro":"Pelipper"
-      }
+      },
+      "base_evolution": 278
     },
     "280":{
       "idx":280,
@@ -3221,7 +3401,8 @@
         "eng":"Ralts",
         "jpn":"ラルトス",
         "jpn_ro":"Rarutosu"
-      }
+      },
+      "base_evolution": 280
     },
     "281":{
       "idx":281,
@@ -3238,7 +3419,8 @@
         "eng":"Kirlia",
         "jpn":"キルリア",
         "jpn_ro":"Kirlia"
-      }
+      },
+      "base_evolution": 280
     },
     "282":{
       "idx":282,
@@ -3258,7 +3440,8 @@
         "eng":"Gardevoir",
         "jpn":"サーナイト",
         "jpn_ro":"Sānaito"
-      }
+      },
+      "base_evolution": 280
     },
     "283":{
       "idx":283,
@@ -3275,7 +3458,8 @@
         "eng":"Surskit",
         "jpn":"アメタマ",
         "jpn_ro":"Ametama"
-      }
+      },
+      "base_evolution": 283
     },
     "284":{
       "idx":284,
@@ -3292,7 +3476,8 @@
         "eng":"Masquerain",
         "jpn":"アメモース",
         "jpn_ro":"Amemōsu"
-      }
+      },
+      "base_evolution": 283
     },
     "285":{
       "idx":285,
@@ -3309,7 +3494,8 @@
         "eng":"Shroomish",
         "jpn":"キノココ",
         "jpn_ro":"Kinococo"
-      }
+      },
+      "base_evolution": 285
     },
     "286":{
       "idx":286,
@@ -3326,7 +3512,8 @@
         "eng":"Breloom",
         "jpn":"キノガッサ",
         "jpn_ro":"Kinogassa"
-      }
+      },
+      "base_evolution": 285
     },
     "287":{
       "idx":287,
@@ -3343,7 +3530,8 @@
         "eng":"Slakoth",
         "jpn":"ナマケロ",
         "jpn_ro":"Namakero"
-      }
+      },
+      "base_evolution": 287
     },
     "288":{
       "idx":288,
@@ -3360,7 +3548,8 @@
         "eng":"Vigoroth",
         "jpn":"ヤルキモノ",
         "jpn_ro":"Yarukimono"
-      }
+      },
+      "base_evolution": 287
     },
     "289":{
       "idx":289,
@@ -3377,7 +3566,8 @@
         "eng":"Slaking",
         "jpn":"ケッキング",
         "jpn_ro":"Kekking"
-      }
+      },
+      "base_evolution": 287
     },
     "290":{
       "idx":290,
@@ -3394,7 +3584,8 @@
         "eng":"Nincada",
         "jpn":"ツチニン",
         "jpn_ro":"Tsuchinin"
-      }
+      },
+      "base_evolution": 290
     },
     "291":{
       "idx":291,
@@ -3411,7 +3602,8 @@
         "eng":"Ninjask",
         "jpn":"テッカニン",
         "jpn_ro":"Tekkanin"
-      }
+      },
+      "base_evolution": 290
     },
     "292":{
       "idx":292,
@@ -3428,7 +3620,8 @@
         "eng":"Shedinja",
         "jpn":"ヌケニン",
         "jpn_ro":"Nukenin"
-      }
+      },
+      "base_evolution": 292
     },
     "293":{
       "idx":293,
@@ -3445,7 +3638,8 @@
         "eng":"Whismur",
         "jpn":"ゴニョニョ",
         "jpn_ro":"Gonyonyo"
-      }
+      },
+      "base_evolution": 293
     },
     "294":{
       "idx":294,
@@ -3462,7 +3656,8 @@
         "eng":"Loudred",
         "jpn":"ドゴーム",
         "jpn_ro":"Dogōmu"
-      }
+      },
+      "base_evolution": 293
     },
     "295":{
       "idx":295,
@@ -3479,7 +3674,8 @@
         "eng":"Exploud",
         "jpn":"バクオング",
         "jpn_ro":"Bakuong"
-      }
+      },
+      "base_evolution": 293
     },
     "296":{
       "idx":296,
@@ -3496,7 +3692,8 @@
         "eng":"Makuhita",
         "jpn":"マクノシタ",
         "jpn_ro":"Makunoshita"
-      }
+      },
+      "base_evolution": 296
     },
     "297":{
       "idx":297,
@@ -3513,7 +3710,8 @@
         "eng":"Hariyama",
         "jpn":"ハリテヤマ",
         "jpn_ro":"Hariteyama"
-      }
+      },
+      "base_evolution": 296
     },
     "298":{
       "idx":298,
@@ -3530,7 +3728,8 @@
         "eng":"Azurill",
         "jpn":"ルリリ",
         "jpn_ro":"Ruriri"
-      }
+      },
+      "base_evolution": 298
     },
     "299":{
       "idx":299,
@@ -3547,7 +3746,8 @@
         "eng":"Nosepass",
         "jpn":"ノズパス",
         "jpn_ro":"Nozupasu"
-      }
+      },
+      "base_evolution": 299
     },
     "300":{
       "idx":300,
@@ -3564,7 +3764,8 @@
         "eng":"Skitty",
         "jpn":"エネコ",
         "jpn_ro":"Eneco"
-      }
+      },
+      "base_evolution": 300
     },
     "301":{
       "idx":301,
@@ -3581,7 +3782,8 @@
         "eng":"Delcatty",
         "jpn":"エネコロロ",
         "jpn_ro":"Enekororo"
-      }
+      },
+      "base_evolution": 300
     },
     "302":{
       "idx":302,
@@ -3601,7 +3803,8 @@
         "eng":"Sableye",
         "jpn":"ヤミラミ",
         "jpn_ro":"Yamirami"
-      }
+      },
+      "base_evolution": 302
     },
     "303":{
       "idx":303,
@@ -3621,7 +3824,8 @@
         "eng":"Mawile",
         "jpn":"クチート",
         "jpn_ro":"Kucheat"
-      }
+      },
+      "base_evolution": 303
     },
     "304":{
       "idx":304,
@@ -3638,7 +3842,8 @@
         "eng":"Aron",
         "jpn":"ココドラ",
         "jpn_ro":"Cokodora"
-      }
+      },
+      "base_evolution": 304
     },
     "305":{
       "idx":305,
@@ -3655,7 +3860,8 @@
         "eng":"Lairon",
         "jpn":"コドラ",
         "jpn_ro":"Kodora"
-      }
+      },
+      "base_evolution": 304
     },
     "306":{
       "idx":306,
@@ -3675,7 +3881,8 @@
         "eng":"Aggron",
         "jpn":"ボスゴドラ",
         "jpn_ro":"Bosugodora"
-      }
+      },
+      "base_evolution": 304
     },
     "307":{
       "idx":307,
@@ -3692,7 +3899,8 @@
         "eng":"Meditite",
         "jpn":"アサナン",
         "jpn_ro":"Asanan"
-      }
+      },
+      "base_evolution": 307
     },
     "308":{
       "idx":308,
@@ -3712,7 +3920,8 @@
         "eng":"Medicham",
         "jpn":"チャーレム",
         "jpn_ro":"Charem"
-      }
+      },
+      "base_evolution": 307
     },
     "309":{
       "idx":309,
@@ -3729,7 +3938,8 @@
         "eng":"Electrike",
         "jpn":"ラクライ",
         "jpn_ro":"Rakurai"
-      }
+      },
+      "base_evolution": 309
     },
     "310":{
       "idx":310,
@@ -3749,7 +3959,8 @@
         "eng":"Manectric",
         "jpn":"ライボルト",
         "jpn_ro":"Raiboruto"
-      }
+      },
+      "base_evolution": 309
     },
     "311":{
       "idx":311,
@@ -3766,7 +3977,8 @@
         "eng":"Plusle",
         "jpn":"プラスル",
         "jpn_ro":"Plusle"
-      }
+      },
+      "base_evolution": 311
     },
     "312":{
       "idx":312,
@@ -3783,7 +3995,8 @@
         "eng":"Minun",
         "jpn":"マイナン",
         "jpn_ro":"Minun"
-      }
+      },
+      "base_evolution": 312
     },
     "313":{
       "idx":313,
@@ -3800,7 +4013,8 @@
         "eng":"Volbeat",
         "jpn":"バルビート",
         "jpn_ro":"Barubīto"
-      }
+      },
+      "base_evolution": 313
     },
     "314":{
       "idx":314,
@@ -3817,7 +4031,8 @@
         "eng":"Illumise",
         "jpn":"イルミーゼ",
         "jpn_ro":"Illumise"
-      }
+      },
+      "base_evolution": 314
     },
     "315":{
       "idx":315,
@@ -3834,7 +4049,8 @@
         "eng":"Roselia",
         "jpn":"ロゼリア",
         "jpn_ro":"Rozeria"
-      }
+      },
+      "base_evolution": 406
     },
     "316":{
       "idx":316,
@@ -3851,7 +4067,8 @@
         "eng":"Gulpin",
         "jpn":"ゴクリン",
         "jpn_ro":"Gokulin"
-      }
+      },
+      "base_evolution": 316
     },
     "317":{
       "idx":317,
@@ -3868,7 +4085,8 @@
         "eng":"Swalot",
         "jpn":"マルノーム",
         "jpn_ro":"Marunōmu"
-      }
+      },
+      "base_evolution": 316
     },
     "318":{
       "idx":318,
@@ -3885,7 +4103,8 @@
         "eng":"Carvanha",
         "jpn":"キバニア",
         "jpn_ro":"Kibania"
-      }
+      },
+      "base_evolution": 318
     },
     "319":{
       "idx":319,
@@ -3905,7 +4124,8 @@
         "eng":"Sharpedo",
         "jpn":"サメハダー",
         "jpn_ro":"Samehader"
-      }
+      },
+      "base_evolution": 318
     },
     "320":{
       "idx":320,
@@ -3922,7 +4142,8 @@
         "eng":"Wailmer",
         "jpn":"ホエルコ",
         "jpn_ro":"Hoeruko"
-      }
+      },
+      "base_evolution": 320
     },
     "321":{
       "idx":321,
@@ -3939,7 +4160,8 @@
         "eng":"Wailord",
         "jpn":"ホエルオー",
         "jpn_ro":"Whaloh"
-      }
+      },
+      "base_evolution": 321
     },
     "322":{
       "idx":322,
@@ -3956,7 +4178,8 @@
         "eng":"Numel",
         "jpn":"ドンメル",
         "jpn_ro":"Donmeru"
-      }
+      },
+      "base_evolution": 322
     },
     "323":{
       "idx":323,
@@ -3976,7 +4199,8 @@
         "eng":"Camerupt",
         "jpn":"バクーダ",
         "jpn_ro":"Bakūda"
-      }
+      },
+      "base_evolution": 322
     },
     "324":{
       "idx":324,
@@ -3993,7 +4217,8 @@
         "eng":"Torkoal",
         "jpn":"コータス",
         "jpn_ro":"Kōtasu"
-      }
+      },
+      "base_evolution": 324
     },
     "325":{
       "idx":325,
@@ -4010,7 +4235,8 @@
         "eng":"Spoink",
         "jpn":"バネブー",
         "jpn_ro":"Baneboo"
-      }
+      },
+      "base_evolution": 325
     },
     "326":{
       "idx":326,
@@ -4027,7 +4253,8 @@
         "eng":"Grumpig",
         "jpn":"ブーピッグ",
         "jpn_ro":"Būpiggu"
-      }
+      },
+      "base_evolution": 326
     },
     "327":{
       "idx":327,
@@ -4044,7 +4271,8 @@
         "eng":"Spinda",
         "jpn":"パッチール",
         "jpn_ro":"Patcheel"
-      }
+      },
+      "base_evolution": 327
     },
     "328":{
       "idx":328,
@@ -4061,7 +4289,8 @@
         "eng":"Trapinch",
         "jpn":"ナックラー",
         "jpn_ro":"Nakkurā"
-      }
+      },
+      "base_evolution": 328
     },
     "329":{
       "idx":329,
@@ -4078,7 +4307,8 @@
         "eng":"Vibrava",
         "jpn":"ビブラーバ",
         "jpn_ro":"Biburāba"
-      }
+      },
+      "base_evolution": 328
     },
     "330":{
       "idx":330,
@@ -4095,7 +4325,8 @@
         "eng":"Flygon",
         "jpn":"フライゴン",
         "jpn_ro":"Flygon"
-      }
+      },
+      "base_evolution": 328
     },
     "331":{
       "idx":331,
@@ -4112,7 +4343,8 @@
         "eng":"Cacnea",
         "jpn":"サボネア",
         "jpn_ro":"Sabonea"
-      }
+      },
+      "base_evolution": 331
     },
     "332":{
       "idx":332,
@@ -4129,7 +4361,8 @@
         "eng":"Cacturne",
         "jpn":"ノクタス",
         "jpn_ro":"Noctus"
-      }
+      },
+      "base_evolution": 331
     },
     "333":{
       "idx":333,
@@ -4146,7 +4379,8 @@
         "eng":"Swablu",
         "jpn":"チルット",
         "jpn_ro":"Chirutto"
-      }
+      },
+      "base_evolution": 333
     },
     "334":{
       "idx":334,
@@ -4166,7 +4400,8 @@
         "eng":"Altaria",
         "jpn":"チルタリス",
         "jpn_ro":"Tyltalis"
-      }
+      },
+      "base_evolution": 333
     },
     "335":{
       "idx":335,
@@ -4183,7 +4418,8 @@
         "eng":"Zangoose",
         "jpn":"ザングース",
         "jpn_ro":"Zangoose"
-      }
+      },
+      "base_evolution": 335
     },
     "336":{
       "idx":336,
@@ -4200,7 +4436,8 @@
         "eng":"Seviper",
         "jpn":"ハブネーク",
         "jpn_ro":"Habunake"
-      }
+      },
+      "base_evolution": 336
     },
     "337":{
       "idx":337,
@@ -4217,7 +4454,8 @@
         "eng":"Lunatone",
         "jpn":"ルナトーン",
         "jpn_ro":"Runatōn"
-      }
+      },
+      "base_evolution": 337
     },
     "338":{
       "idx":338,
@@ -4234,7 +4472,8 @@
         "eng":"Solrock",
         "jpn":"ソルロック",
         "jpn_ro":"Sorurokku"
-      }
+      },
+      "base_evolution": 338
     },
     "339":{
       "idx":339,
@@ -4251,7 +4490,8 @@
         "eng":"Barboach",
         "jpn":"ドジョッチ",
         "jpn_ro":"Dojotchi"
-      }
+      },
+      "base_evolution": 339
     },
     "340":{
       "idx":340,
@@ -4268,7 +4508,8 @@
         "eng":"Whiscash",
         "jpn":"ナマズン",
         "jpn_ro":"Namazun"
-      }
+      },
+      "base_evolution": 339
     },
     "341":{
       "idx":341,
@@ -4285,7 +4526,8 @@
         "eng":"Corphish",
         "jpn":"ヘイガニ",
         "jpn_ro":"Heigani"
-      }
+      },
+      "base_evolution": 341
     },
     "342":{
       "idx":342,
@@ -4302,7 +4544,8 @@
         "eng":"Crawdaunt",
         "jpn":"シザリガー",
         "jpn_ro":"Shizariger"
-      }
+      },
+      "base_evolution": 341
     },
     "343":{
       "idx":343,
@@ -4319,7 +4562,8 @@
         "eng":"Baltoy",
         "jpn":"ヤジロン",
         "jpn_ro":"Yajiron"
-      }
+      },
+      "base_evolution": 343
     },
     "344":{
       "idx":344,
@@ -4336,7 +4580,8 @@
         "eng":"Claydol",
         "jpn":"ネンドール",
         "jpn_ro":"Nendōru"
-      }
+      },
+      "base_evolution": 343
     },
     "345":{
       "idx":345,
@@ -4353,7 +4598,8 @@
         "eng":"Lileep",
         "jpn":"リリーラ",
         "jpn_ro":"Rirīra"
-      }
+      },
+      "base_evolution": 345
     },
     "346":{
       "idx":346,
@@ -4370,7 +4616,8 @@
         "eng":"Cradily",
         "jpn":"ユレイドル",
         "jpn_ro":"Yureidoru"
-      }
+      },
+      "base_evolution": 345
     },
     "347":{
       "idx":347,
@@ -4387,7 +4634,8 @@
         "eng":"Anorith",
         "jpn":"アノプス",
         "jpn_ro":"Anopusu"
-      }
+      },
+      "base_evolution": 347
     },
     "348":{
       "idx":348,
@@ -4404,7 +4652,8 @@
         "eng":"Armaldo",
         "jpn":"アーマルド",
         "jpn_ro":"Āmarudo"
-      }
+      },
+      "base_evolution": 347
     },
     "349":{
       "idx":349,
@@ -4421,7 +4670,8 @@
         "eng":"Feebas",
         "jpn":"ヒンバス",
         "jpn_ro":"Hinbasu"
-      }
+      },
+      "base_evolution": 349
     },
     "350":{
       "idx":350,
@@ -4438,7 +4688,8 @@
         "eng":"Milotic",
         "jpn":"ミロカロス",
         "jpn_ro":"Mirokarosu"
-      }
+      },
+      "base_evolution": 349
     },
     "351":{
       "idx":351,
@@ -4464,7 +4715,8 @@
         "eng":"Castform",
         "jpn":"ポワルン",
         "jpn_ro":"Powarun"
-      }
+      },
+      "base_evolution": 351
     },
     "352":{
       "idx":352,
@@ -4481,7 +4733,8 @@
         "eng":"Kecleon",
         "jpn":"カクレオン",
         "jpn_ro":"Kakureon"
-      }
+      },
+      "base_evolution": 352
     },
     "353":{
       "idx":353,
@@ -4498,7 +4751,8 @@
         "eng":"Shuppet",
         "jpn":"カゲボウズ",
         "jpn_ro":"Kagebōzu"
-      }
+      },
+      "base_evolution": 353
     },
     "354":{
       "idx":354,
@@ -4518,7 +4772,8 @@
         "eng":"Banette",
         "jpn":"ジュペッタ",
         "jpn_ro":"Jupetta"
-      }
+      },
+      "base_evolution": 353
     },
     "355":{
       "idx":355,
@@ -4535,7 +4790,8 @@
         "eng":"Duskull",
         "jpn":"ヨマワル",
         "jpn_ro":"Yomawaru"
-      }
+      },
+      "base_evolution": 355
     },
     "356":{
       "idx":356,
@@ -4552,7 +4808,8 @@
         "eng":"Dusclops",
         "jpn":"サマヨール",
         "jpn_ro":"Samayōru"
-      }
+      },
+      "base_evolution": 355
     },
     "357":{
       "idx":357,
@@ -4569,7 +4826,8 @@
         "eng":"Tropius",
         "jpn":"トロピウス",
         "jpn_ro":"Tropius"
-      }
+      },
+      "base_evolution": 357
     },
     "358":{
       "idx":358,
@@ -4586,7 +4844,8 @@
         "eng":"Chimecho",
         "jpn":"チリーン",
         "jpn_ro":"Chirean"
-      }
+      },
+      "base_evolution": 358
     },
     "359":{
       "idx":359,
@@ -4606,7 +4865,8 @@
         "eng":"Absol",
         "jpn":"アブソル",
         "jpn_ro":"Absol"
-      }
+      },
+      "base_evolution": 359
     },
     "360":{
       "idx":360,
@@ -4623,7 +4883,8 @@
         "eng":"Wynaut",
         "jpn":"ソーナノ",
         "jpn_ro":"Sohnano"
-      }
+      },
+      "base_evolution": 360
     },
     "361":{
       "idx":361,
@@ -4640,7 +4901,8 @@
         "eng":"Snorunt",
         "jpn":"ユキワラシ",
         "jpn_ro":"Yukiwarashi"
-      }
+      },
+      "base_evolution": 361
     },
     "362":{
       "idx":362,
@@ -4660,7 +4922,8 @@
         "eng":"Glalie",
         "jpn":"オニゴーリ",
         "jpn_ro":"Onigōri"
-      }
+      },
+      "base_evolution": 362
     },
     "363":{
       "idx":363,
@@ -4677,7 +4940,8 @@
         "eng":"Spheal",
         "jpn":"タマザラシ",
         "jpn_ro":"Tamazarashi"
-      }
+      },
+      "base_evolution": 363
     },
     "364":{
       "idx":364,
@@ -4694,7 +4958,8 @@
         "eng":"Sealeo",
         "jpn":"トドグラー",
         "jpn_ro":"Todogurā"
-      }
+      },
+      "base_evolution": 363
     },
     "365":{
       "idx":365,
@@ -4711,7 +4976,8 @@
         "eng":"Walrein",
         "jpn":"トドゼルガ",
         "jpn_ro":"Todozeruga"
-      }
+      },
+      "base_evolution": 363
     },
     "366":{
       "idx":366,
@@ -4728,7 +4994,8 @@
         "eng":"Clamperl",
         "jpn":"パールル",
         "jpn_ro":"Pāruru"
-      }
+      },
+      "base_evolution": 366
     },
     "367":{
       "idx":367,
@@ -4745,7 +5012,8 @@
         "eng":"Huntail",
         "jpn":"ハンテール",
         "jpn_ro":"Hantēru"
-      }
+      },
+      "base_evolution": 366
     },
     "368":{
       "idx":368,
@@ -4762,7 +5030,8 @@
         "eng":"Gorebyss",
         "jpn":"サクラビス",
         "jpn_ro":"Sakurabisu"
-      }
+      },
+      "base_evolution": 366
     },
     "369":{
       "idx":369,
@@ -4779,7 +5048,8 @@
         "eng":"Relicanth",
         "jpn":"ジーランス",
         "jpn_ro":"Jīransu"
-      }
+      },
+      "base_evolution": 369
     },
     "370":{
       "idx":370,
@@ -4796,7 +5066,8 @@
         "eng":"Luvdisc",
         "jpn":"ラブカス",
         "jpn_ro":"Rabukasu"
-      }
+      },
+      "base_evolution": 370
     },
     "371":{
       "idx":371,
@@ -4813,7 +5084,8 @@
         "eng":"Bagon",
         "jpn":"タツベイ",
         "jpn_ro":"Tatsubei"
-      }
+      },
+      "base_evolution": 371
     },
     "372":{
       "idx":372,
@@ -4830,7 +5102,8 @@
         "eng":"Shelgon",
         "jpn":"コモルー",
         "jpn_ro":"Komorū"
-      }
+      },
+      "base_evolution": 371
     },
     "373":{
       "idx":373,
@@ -4850,7 +5123,8 @@
         "eng":"Salamence",
         "jpn":"ボーマンダ",
         "jpn_ro":"Bohmander"
-      }
+      },
+      "base_evolution": 371
     },
     "374":{
       "idx":374,
@@ -4867,7 +5141,8 @@
         "eng":"Beldum",
         "jpn":"ダンバル",
         "jpn_ro":"Danbaru"
-      }
+      },
+      "base_evolution": 374
     },
     "375":{
       "idx":375,
@@ -4884,7 +5159,8 @@
         "eng":"Metang",
         "jpn":"メタング",
         "jpn_ro":"Metangu"
-      }
+      },
+      "base_evolution": 374
     },
     "376":{
       "idx":376,
@@ -4904,7 +5180,8 @@
         "eng":"Metagross",
         "jpn":"メタグロス",
         "jpn_ro":"Metagross"
-      }
+      },
+      "base_evolution": 374
     },
     "377":{
       "idx":377,
@@ -4921,7 +5198,8 @@
         "eng":"Regirock",
         "jpn":"レジロック",
         "jpn_ro":"Regirock"
-      }
+      },
+      "base_evolution": 377
     },
     "378":{
       "idx":378,
@@ -4938,7 +5216,8 @@
         "eng":"Regice",
         "jpn":"レジアイス",
         "jpn_ro":"Regice"
-      }
+      },
+      "base_evolution": 378
     },
     "379":{
       "idx":379,
@@ -4955,7 +5234,8 @@
         "eng":"Registeel",
         "jpn":"レジスチル",
         "jpn_ro":"Registeel"
-      }
+      },
+      "base_evolution": 379
     },
     "380":{
       "idx":380,
@@ -4975,7 +5255,8 @@
         "eng":"Latias",
         "jpn":"ラティアス",
         "jpn_ro":"Latias"
-      }
+      },
+      "base_evolution": 380
     },
     "381":{
       "idx":381,
@@ -4995,7 +5276,8 @@
         "eng":"Latios",
         "jpn":"ラティオス",
         "jpn_ro":"Latios"
-      }
+      },
+      "base_evolution": 381
     },
     "382":{
       "idx":382,
@@ -5015,7 +5297,8 @@
         "eng":"Kyogre",
         "jpn":"カイオーガ",
         "jpn_ro":"Kaiorga"
-      }
+      },
+      "base_evolution": 382
     },
     "383":{
       "idx":383,
@@ -5035,7 +5318,8 @@
         "eng":"Groudon",
         "jpn":"グラードン",
         "jpn_ro":"Groudon"
-      }
+      },
+      "base_evolution": 383
     },
     "384":{
       "idx":384,
@@ -5055,7 +5339,8 @@
         "eng":"Rayquaza",
         "jpn":"レックウザ",
         "jpn_ro":"Rayquaza"
-      }
+      },
+      "base_evolution": 384
     },
     "385":{
       "idx":385,
@@ -5072,7 +5357,8 @@
         "eng":"Jirachi",
         "jpn":"ジラーチ",
         "jpn_ro":"Jirachi"
-      }
+      },
+      "base_evolution": 385
     },
     "386":{
       "idx":386,
@@ -5101,7 +5387,8 @@
         "eng":"Deoxys",
         "jpn":"デオキシス",
         "jpn_ro":"Deoxys"
-      }
+      },
+      "base_evolution": 386
     },
     "387":{
       "idx":387,
@@ -5118,7 +5405,8 @@
         "eng":"Turtwig",
         "jpn":"ナエトル",
         "jpn_ro":"Naetle"
-      }
+      },
+      "base_evolution": 387
     },
     "388":{
       "idx":388,
@@ -5135,7 +5423,8 @@
         "eng":"Grotle",
         "jpn":"ハヤシガメ",
         "jpn_ro":"Hayashigame"
-      }
+      },
+      "base_evolution": 387
     },
     "389":{
       "idx":389,
@@ -5152,7 +5441,8 @@
         "eng":"Torterra",
         "jpn":"ドダイトス",
         "jpn_ro":"Dodaitose"
-      }
+      },
+      "base_evolution": 387
     },
     "390":{
       "idx":390,
@@ -5169,7 +5459,8 @@
         "eng":"Chimchar",
         "jpn":"ヒコザル",
         "jpn_ro":"Hikozaru"
-      }
+      },
+      "base_evolution": 390
     },
     "391":{
       "idx":391,
@@ -5186,7 +5477,8 @@
         "eng":"Monferno",
         "jpn":"モウカザル",
         "jpn_ro":"Moukazaru"
-      }
+      },
+      "base_evolution": 390
     },
     "392":{
       "idx":392,
@@ -5203,7 +5495,8 @@
         "eng":"Infernape",
         "jpn":"ゴウカザル",
         "jpn_ro":"Goukazaru"
-      }
+      },
+      "base_evolution": 390
     },
     "393":{
       "idx":393,
@@ -5220,7 +5513,8 @@
         "eng":"Piplup",
         "jpn":"ポッチャマ",
         "jpn_ro":"Pochama"
-      }
+      },
+      "base_evolution": 393
     },
     "394":{
       "idx":394,
@@ -5237,7 +5531,8 @@
         "eng":"Prinplup",
         "jpn":"ポッタイシ",
         "jpn_ro":"Pottaishi"
-      }
+      },
+      "base_evolution": 393
     },
     "395":{
       "idx":395,
@@ -5254,7 +5549,8 @@
         "eng":"Empoleon",
         "jpn":"エンペルト",
         "jpn_ro":"Emperte"
-      }
+      },
+      "base_evolution": 393
     },
     "396":{
       "idx":396,
@@ -5271,7 +5567,8 @@
         "eng":"Starly",
         "jpn":"ムックル",
         "jpn_ro":"Mukkuru"
-      }
+      },
+      "base_evolution": 396
     },
     "397":{
       "idx":397,
@@ -5288,7 +5585,8 @@
         "eng":"Staravia",
         "jpn":"ムクバード",
         "jpn_ro":"Mukubird"
-      }
+      },
+      "base_evolution": 396
     },
     "398":{
       "idx":398,
@@ -5305,7 +5603,8 @@
         "eng":"Staraptor",
         "jpn":"ムクホーク",
         "jpn_ro":"Mukuhōku"
-      }
+      },
+      "base_evolution": 396
     },
     "399":{
       "idx":399,
@@ -5322,7 +5621,8 @@
         "eng":"Bidoof",
         "jpn":"ビッパ",
         "jpn_ro":"Bippa"
-      }
+      },
+      "base_evolution": 399
     },
     "400":{
       "idx":400,
@@ -5339,7 +5639,8 @@
         "eng":"Bibarel",
         "jpn":"ビーダル",
         "jpn_ro":"Bīdaru"
-      }
+      },
+      "base_evolution": 399
     },
     "401":{
       "idx":401,
@@ -5356,7 +5657,8 @@
         "eng":"Kricketot",
         "jpn":"コロボーシ",
         "jpn_ro":"Korobōshi"
-      }
+      },
+      "base_evolution": 401
     },
     "402":{
       "idx":402,
@@ -5373,7 +5675,8 @@
         "eng":"Kricketune",
         "jpn":"コロトック",
         "jpn_ro":"Korotokku"
-      }
+      },
+      "base_evolution": 401
     },
     "403":{
       "idx":403,
@@ -5390,7 +5693,8 @@
         "eng":"Shinx",
         "jpn":"コリンク",
         "jpn_ro":"Kolink"
-      }
+      },
+      "base_evolution": 403
     },
     "404":{
       "idx":404,
@@ -5407,7 +5711,8 @@
         "eng":"Luxio",
         "jpn":"ルクシオ",
         "jpn_ro":"Luxio"
-      }
+      },
+      "base_evolution": 403
     },
     "405":{
       "idx":405,
@@ -5424,7 +5729,8 @@
         "eng":"Luxray",
         "jpn":"レントラー",
         "jpn_ro":"Rentorar"
-      }
+      },
+      "base_evolution": 403
     },
     "406":{
       "idx":406,
@@ -5441,7 +5747,8 @@
         "eng":"Budew",
         "jpn":"スボミー",
         "jpn_ro":"Subomie"
-      }
+      },
+      "base_evolution": 406
     },
     "407":{
       "idx":407,
@@ -5458,7 +5765,8 @@
         "eng":"Roserade",
         "jpn":"ロズレイド",
         "jpn_ro":"Roserade"
-      }
+      },
+      "base_evolution": 406
     },
     "408":{
       "idx":408,
@@ -5475,7 +5783,8 @@
         "eng":"Cranidos",
         "jpn":"ズガイドス",
         "jpn_ro":"Zugaidos"
-      }
+      },
+      "base_evolution": 408
     },
     "409":{
       "idx":409,
@@ -5492,7 +5801,8 @@
         "eng":"Rampardos",
         "jpn":"ラムパルド",
         "jpn_ro":"Rampald"
-      }
+      },
+      "base_evolution": 408
     },
     "410":{
       "idx":410,
@@ -5509,7 +5819,8 @@
         "eng":"Shieldon",
         "jpn":"タテトプス",
         "jpn_ro":"Tatetopusu"
-      }
+      },
+      "base_evolution": 410
     },
     "411":{
       "idx":411,
@@ -5526,7 +5837,8 @@
         "eng":"Bastiodon",
         "jpn":"トリデプス",
         "jpn_ro":"Torideps"
-      }
+      },
+      "base_evolution": 410
     },
     "412":{
       "idx":412,
@@ -5552,7 +5864,8 @@
         "eng":"Burmy",
         "jpn":"ミノムッチ",
         "jpn_ro":"Minomutchi"
-      }
+      },
+      "base_evolution": 412
     },
     "413":{
       "idx":413,
@@ -5578,7 +5891,8 @@
         "eng":"Wormadam",
         "jpn":"ミノマダム",
         "jpn_ro":"Minomadamu"
-      }
+      },
+      "base_evolution": 413
     },
     "414":{
       "idx":414,
@@ -5604,7 +5918,8 @@
         "eng":"Mothim",
         "jpn":"ガーメイル",
         "jpn_ro":"Gāmeiru"
-      }
+      },
+      "base_evolution": 413
     },
     "415":{
       "idx":415,
@@ -5621,7 +5936,8 @@
         "eng":"Combee",
         "jpn":"ミツハニー",
         "jpn_ro":"Mitsuhoney"
-      }
+      },
+      "base_evolution": 415
     },
     "416":{
       "idx":416,
@@ -5638,7 +5954,8 @@
         "eng":"Vespiquen",
         "jpn":"ビークイン",
         "jpn_ro":"Beequen"
-      }
+      },
+      "base_evolution": 415
     },
     "417":{
       "idx":417,
@@ -5655,7 +5972,8 @@
         "eng":"Pachirisu",
         "jpn":"パチリス",
         "jpn_ro":"Pachirisu"
-      }
+      },
+      "base_evolution": 417
     },
     "418":{
       "idx":418,
@@ -5672,7 +5990,8 @@
         "eng":"Buizel",
         "jpn":"ブイゼル",
         "jpn_ro":"Buoysel"
-      }
+      },
+      "base_evolution": 418
     },
     "419":{
       "idx":419,
@@ -5689,7 +6008,8 @@
         "eng":"Floatzel",
         "jpn":"フローゼル",
         "jpn_ro":"Furōzeru"
-      }
+      },
+      "base_evolution": 418
     },
     "420":{
       "idx":420,
@@ -5706,7 +6026,8 @@
         "eng":"Cherubi",
         "jpn":"チェリンボ",
         "jpn_ro":"Cherinbo"
-      }
+      },
+      "base_evolution": 420
     },
     "421":{
       "idx":421,
@@ -5729,7 +6050,8 @@
         "eng":"Cherrim",
         "jpn":"チェリム",
         "jpn_ro":"Cherrim"
-      }
+      },
+      "base_evolution": 420
     },
     "422":{
       "idx":422,
@@ -5752,7 +6074,8 @@
         "eng":"Shellos",
         "jpn":"カラナクシ",
         "jpn_ro":"Karanakushi"
-      }
+      },
+      "base_evolution": 422
     },
     "423":{
       "idx":423,
@@ -5775,7 +6098,8 @@
         "eng":"Gastrodon",
         "jpn":"トリトドン",
         "jpn_ro":"Toritodon"
-      }
+      },
+      "base_evolution": 422
     },
     "424":{
       "idx":424,
@@ -5792,7 +6116,8 @@
         "eng":"Ambipom",
         "jpn":"エテボース",
         "jpn_ro":"Eteboth"
-      }
+      },
+      "base_evolution": 190
     },
     "425":{
       "idx":425,
@@ -5809,7 +6134,8 @@
         "eng":"Drifloon",
         "jpn":"フワンテ",
         "jpn_ro":"Fuwante"
-      }
+      },
+      "base_evolution": 425
     },
     "426":{
       "idx":426,
@@ -5826,7 +6152,8 @@
         "eng":"Drifblim",
         "jpn":"フワライド",
         "jpn_ro":"Fuwaride"
-      }
+      },
+      "base_evolution": 425
     },
     "427":{
       "idx":427,
@@ -5843,7 +6170,8 @@
         "eng":"Buneary",
         "jpn":"ミミロル",
         "jpn_ro":"Mimirol"
-      }
+      },
+      "base_evolution": 427
     },
     "428":{
       "idx":428,
@@ -5863,7 +6191,8 @@
         "eng":"Lopunny",
         "jpn":"ミミロップ",
         "jpn_ro":"Mimilop"
-      }
+      },
+      "base_evolution": 427
     },
     "429":{
       "idx":429,
@@ -5880,7 +6209,8 @@
         "eng":"Mismagius",
         "jpn":"ムウマージ",
         "jpn_ro":"Mumargi"
-      }
+      },
+      "base_evolution": 200
     },
     "430":{
       "idx":430,
@@ -5897,7 +6227,8 @@
         "eng":"Honchkrow",
         "jpn":"ドンカラス",
         "jpn_ro":"Dongkarasu"
-      }
+      },
+      "base_evolution": 198
     },
     "431":{
       "idx":431,
@@ -5914,7 +6245,8 @@
         "eng":"Glameow",
         "jpn":"ニャルマー",
         "jpn_ro":"Nyarmar"
-      }
+      },
+      "base_evolution": 431
     },
     "432":{
       "idx":432,
@@ -5931,7 +6263,8 @@
         "eng":"Purugly",
         "jpn":"ブニャット",
         "jpn_ro":"Bunyatto"
-      }
+      },
+      "base_evolution": 431
     },
     "433":{
       "idx":433,
@@ -5948,7 +6281,8 @@
         "eng":"Chingling",
         "jpn":"リーシャン",
         "jpn_ro":"Lisyan"
-      }
+      },
+      "base_evolution": 433
     },
     "434":{
       "idx":434,
@@ -5965,7 +6299,8 @@
         "eng":"Stunky",
         "jpn":"スカンプー",
         "jpn_ro":"Sukanpū"
-      }
+      },
+      "base_evolution": 434
     },
     "435":{
       "idx":435,
@@ -5982,7 +6317,8 @@
         "eng":"Skuntank",
         "jpn":"スカタンク",
         "jpn_ro":"Skutank"
-      }
+      },
+      "base_evolution": 434
     },
     "436":{
       "idx":436,
@@ -5999,7 +6335,8 @@
         "eng":"Bronzor",
         "jpn":"ドーミラー",
         "jpn_ro":"Dōmirā"
-      }
+      },
+      "base_evolution": 436
     },
     "437":{
       "idx":437,
@@ -6016,7 +6353,8 @@
         "eng":"Bronzong",
         "jpn":"ドータクン",
         "jpn_ro":"Dohtakun"
-      }
+      },
+      "base_evolution": 436
     },
     "438":{
       "idx":438,
@@ -6033,7 +6371,8 @@
         "eng":"Bonsly",
         "jpn":"ウソハチ",
         "jpn_ro":"Usohachi"
-      }
+      },
+      "base_evolution": 438
     },
     "439":{
       "idx":439,
@@ -6050,7 +6389,8 @@
         "eng":"Mime Jr.",
         "jpn":"マネネ",
         "jpn_ro":"Manene"
-      }
+      },
+      "base_evolution": 439
     },
     "440":{
       "idx":440,
@@ -6067,7 +6407,8 @@
         "eng":"Happiny",
         "jpn":"ピンプク",
         "jpn_ro":"Pinpuku"
-      }
+      },
+      "base_evolution": 440
     },
     "441":{
       "idx":441,
@@ -6084,7 +6425,8 @@
         "eng":"Chatot",
         "jpn":"ペラップ",
         "jpn_ro":"Perap"
-      }
+      },
+      "base_evolution": 441
     },
     "442":{
       "idx":442,
@@ -6101,7 +6443,8 @@
         "eng":"Spiritomb",
         "jpn":"ミカルゲ",
         "jpn_ro":"Mikaruge"
-      }
+      },
+      "base_evolution": 442
     },
     "443":{
       "idx":443,
@@ -6118,7 +6461,8 @@
         "eng":"Gible",
         "jpn":"フカマル",
         "jpn_ro":"Fukamaru"
-      }
+      },
+      "base_evolution": 443
     },
     "444":{
       "idx":444,
@@ -6135,7 +6479,8 @@
         "eng":"Gabite",
         "jpn":"ガバイト",
         "jpn_ro":"Gabite"
-      }
+      },
+      "base_evolution": 443
     },
     "445":{
       "idx":445,
@@ -6155,7 +6500,8 @@
         "eng":"Garchomp",
         "jpn":"ガブリアス",
         "jpn_ro":"Gaburias"
-      }
+      },
+      "base_evolution": 443
     },
     "446":{
       "idx":446,
@@ -6172,7 +6518,8 @@
         "eng":"Munchlax",
         "jpn":"ゴンベ",
         "jpn_ro":"Gonbe"
-      }
+      },
+      "base_evolution": 446
     },
     "447":{
       "idx":447,
@@ -6189,7 +6536,8 @@
         "eng":"Riolu",
         "jpn":"リオル",
         "jpn_ro":"Riolu"
-      }
+      },
+      "base_evolution": 447
     },
     "448":{
       "idx":448,
@@ -6209,7 +6557,8 @@
         "eng":"Lucario",
         "jpn":"ルカリオ",
         "jpn_ro":"Lucario"
-      }
+      },
+      "base_evolution": 447
     },
     "449":{
       "idx":449,
@@ -6226,7 +6575,8 @@
         "eng":"Hippopotas",
         "jpn":"ヒポポタス",
         "jpn_ro":"Hipopotasu"
-      }
+      },
+      "base_evolution": 449
     },
     "450":{
       "idx":450,
@@ -6243,7 +6593,8 @@
         "eng":"Hippowdon",
         "jpn":"カバルドン",
         "jpn_ro":"Kabaldon"
-      }
+      },
+      "base_evolution": 449
     },
     "451":{
       "idx":451,
@@ -6260,7 +6611,8 @@
         "eng":"Skorupi",
         "jpn":"スコルピ",
         "jpn_ro":"Sukorupi"
-      }
+      },
+      "base_evolution": 451
     },
     "452":{
       "idx":452,
@@ -6277,7 +6629,8 @@
         "eng":"Drapion",
         "jpn":"ドラピオン",
         "jpn_ro":"Dorapion"
-      }
+      },
+      "base_evolution": 451
     },
     "453":{
       "idx":453,
@@ -6294,7 +6647,8 @@
         "eng":"Croagunk",
         "jpn":"グレッグル",
         "jpn_ro":"Gureggru"
-      }
+      },
+      "base_evolution": 453
     },
     "454":{
       "idx":454,
@@ -6311,7 +6665,8 @@
         "eng":"Toxicroak",
         "jpn":"ドクロッグ",
         "jpn_ro":"Dokurog"
-      }
+      },
+      "base_evolution": 453
     },
     "455":{
       "idx":455,
@@ -6328,7 +6683,8 @@
         "eng":"Carnivine",
         "jpn":"マスキッパ",
         "jpn_ro":"Muskippa"
-      }
+      },
+      "base_evolution": 455
     },
     "456":{
       "idx":456,
@@ -6345,7 +6701,8 @@
         "eng":"Finneon",
         "jpn":"ケイコウオ",
         "jpn_ro":"Keikouo"
-      }
+      },
+      "base_evolution": 456
     },
     "457":{
       "idx":457,
@@ -6362,7 +6719,8 @@
         "eng":"Lumineon",
         "jpn":"ネオラント",
         "jpn_ro":"Neolant"
-      }
+      },
+      "base_evolution": 456
     },
     "458":{
       "idx":458,
@@ -6379,7 +6737,8 @@
         "eng":"Mantyke",
         "jpn":"タマンタ",
         "jpn_ro":"Tamanta"
-      }
+      },
+      "base_evolution": 458
     },
     "459":{
       "idx":459,
@@ -6396,7 +6755,8 @@
         "eng":"Snover",
         "jpn":"ユキカブリ",
         "jpn_ro":"Yukikaburi"
-      }
+      },
+      "base_evolution": 459
     },
     "460":{
       "idx":460,
@@ -6416,7 +6776,8 @@
         "eng":"Abomasnow",
         "jpn":"ユキノオー",
         "jpn_ro":"Yukinoō"
-      }
+      },
+      "base_evolution": 459
     },
     "461":{
       "idx":461,
@@ -6433,7 +6794,8 @@
         "eng":"Weavile",
         "jpn":"マニューラ",
         "jpn_ro":"Manyula"
-      }
+      },
+      "base_evolution": 215
     },
     "462":{
       "idx":462,
@@ -6450,7 +6812,8 @@
         "eng":"Magnezone",
         "jpn":"ジバコイル",
         "jpn_ro":"Jibakoiru"
-      }
+      },
+      "base_evolution": 81
     },
     "463":{
       "idx":463,
@@ -6467,7 +6830,8 @@
         "eng":"Lickilicky",
         "jpn":"ベロベルト",
         "jpn_ro":"Berobelt"
-      }
+      },
+      "base_evolution": 108
     },
     "464":{
       "idx":464,
@@ -6484,7 +6848,8 @@
         "eng":"Rhyperior",
         "jpn":"ドサイドン",
         "jpn_ro":"Dosidon"
-      }
+      },
+      "base_evolution": 112
     },
     "465":{
       "idx":465,
@@ -6501,7 +6866,8 @@
         "eng":"Tangrowth",
         "jpn":"モジャンボ",
         "jpn_ro":"Mojumbo"
-      }
+      },
+      "base_evolution": 114
     },
     "466":{
       "idx":466,
@@ -6518,7 +6884,8 @@
         "eng":"Electivire",
         "jpn":"エレキブル",
         "jpn_ro":"Elekible"
-      }
+      },
+      "base_evolution": 239
     },
     "467":{
       "idx":467,
@@ -6535,7 +6902,8 @@
         "eng":"Magmortar",
         "jpn":"ブーバーン",
         "jpn_ro":"Booburn"
-      }
+      },
+      "base_evolution": 240
     },
     "468":{
       "idx":468,
@@ -6552,7 +6920,8 @@
         "eng":"Togekiss",
         "jpn":"トゲキッス",
         "jpn_ro":"Togekiss"
-      }
+      },
+      "base_evolution": 175
     },
     "469":{
       "idx":469,
@@ -6569,7 +6938,8 @@
         "eng":"Yanmega",
         "jpn":"メガヤンマ",
         "jpn_ro":"Megayanma"
-      }
+      },
+      "base_evolution": 193
     },
     "470":{
       "idx":470,
@@ -6586,7 +6956,8 @@
         "eng":"Leafeon",
         "jpn":"リーフィア",
         "jpn_ro":"Leafia"
-      }
+      },
+      "base_evolution": 133
     },
     "471":{
       "idx":471,
@@ -6603,7 +6974,8 @@
         "eng":"Glaceon",
         "jpn":"グレイシア",
         "jpn_ro":"Glacia"
-      }
+      },
+      "base_evolution": 133
     },
     "472":{
       "idx":472,
@@ -6620,7 +6992,8 @@
         "eng":"Gliscor",
         "jpn":"グライオン",
         "jpn_ro":"Glion"
-      }
+      },
+      "base_evolution": 207
     },
     "473":{
       "idx":473,
@@ -6637,7 +7010,8 @@
         "eng":"Mamoswine",
         "jpn":"マンムー",
         "jpn_ro":"Mammoo"
-      }
+      },
+      "base_evolution": 220
     },
     "474":{
       "idx":474,
@@ -6654,7 +7028,8 @@
         "eng":"Porygon-Z",
         "jpn":"ポリゴンZ",
         "jpn_ro":"PorygonZ"
-      }
+      },
+      "base_evolution": 137
     },
     "475":{
       "idx":475,
@@ -6674,7 +7049,8 @@
         "eng":"Gallade",
         "jpn":"エルレイド",
         "jpn_ro":"Erureido"
-      }
+      },
+      "base_evolution": 280
     },
     "476":{
       "idx":476,
@@ -6691,7 +7067,8 @@
         "eng":"Probopass",
         "jpn":"ダイノーズ",
         "jpn_ro":"Dainōzu"
-      }
+      },
+      "base_evolution": 476
     },
     "477":{
       "idx":477,
@@ -6708,7 +7085,8 @@
         "eng":"Dusknoir",
         "jpn":"ヨノワール",
         "jpn_ro":"Yonoir"
-      }
+      },
+      "base_evolution": 355
     },
     "478":{
       "idx":478,
@@ -6725,7 +7103,8 @@
         "eng":"Froslass",
         "jpn":"ユキメノコ",
         "jpn_ro":"Yukimenoko"
-      }
+      },
+      "base_evolution": 361
     },
     "479":{
       "idx":479,
@@ -6757,7 +7136,8 @@
         "eng":"Rotom",
         "jpn":"ロトム",
         "jpn_ro":"Rotom"
-      }
+      },
+      "base_evolution": 379
     },
     "480":{
       "idx":480,
@@ -6774,7 +7154,8 @@
         "eng":"Uxie",
         "jpn":"ユクシー",
         "jpn_ro":"Yuxie"
-      }
+      },
+      "base_evolution": 480
     },
     "481":{
       "idx":481,
@@ -6791,7 +7172,8 @@
         "eng":"Mesprit",
         "jpn":"エムリット",
         "jpn_ro":"Emrit"
-      }
+      },
+      "base_evolution": 481
     },
     "482":{
       "idx":482,
@@ -6808,7 +7190,8 @@
         "eng":"Azelf",
         "jpn":"アグノム",
         "jpn_ro":"Agnome"
-      }
+      },
+      "base_evolution": 482
     },
     "483":{
       "idx":483,
@@ -6825,7 +7208,8 @@
         "eng":"Dialga",
         "jpn":"ディアルガ",
         "jpn_ro":"Dialga"
-      }
+      },
+      "base_evolution": 483
     },
     "484":{
       "idx":484,
@@ -6842,7 +7226,8 @@
         "eng":"Palkia",
         "jpn":"パルキア",
         "jpn_ro":"Palkia"
-      }
+      },
+      "base_evolution": 484
     },
     "485":{
       "idx":485,
@@ -6859,7 +7244,8 @@
         "eng":"Heatran",
         "jpn":"ヒードラン",
         "jpn_ro":"Heatran"
-      }
+      },
+      "base_evolution": 485
     },
     "486":{
       "idx":486,
@@ -6876,7 +7262,8 @@
         "eng":"Regigigas",
         "jpn":"レジギガス",
         "jpn_ro":"Regigigas"
-      }
+      },
+      "base_evolution": 486
     },
     "487":{
       "idx":487,
@@ -6899,7 +7286,8 @@
         "eng":"Giratina",
         "jpn":"ギラティナ",
         "jpn_ro":"Giratina"
-      }
+      },
+      "base_evolution": 487
     },
     "488":{
       "idx":488,
@@ -6916,7 +7304,8 @@
         "eng":"Cresselia",
         "jpn":"クレセリア",
         "jpn_ro":"Crecelia"
-      }
+      },
+      "base_evolution": 488
     },
     "489":{
       "idx":489,
@@ -6933,7 +7322,8 @@
         "eng":"Phione",
         "jpn":"フィオネ",
         "jpn_ro":"Phione"
-      }
+      },
+      "base_evolution": 489
     },
     "490":{
       "idx":490,
@@ -6950,7 +7340,8 @@
         "eng":"Manaphy",
         "jpn":"マナフィ",
         "jpn_ro":"Manaphy"
-      }
+      },
+      "base_evolution": 490
     },
     "491":{
       "idx":491,
@@ -6967,7 +7358,8 @@
         "eng":"Darkrai",
         "jpn":"ダークライ",
         "jpn_ro":"Darkrai"
-      }
+      },
+      "base_evolution": 491
     },
     "492":{
       "idx":492,
@@ -6990,7 +7382,8 @@
         "eng":"Shaymin",
         "jpn":"シェイミ",
         "jpn_ro":"Shaymin"
-      }
+      },
+      "base_evolution": 492
     },
     "493":{
       "idx":493,
@@ -7064,7 +7457,8 @@
         "eng":"Arceus",
         "jpn":"アルセウス",
         "jpn_ro":"Arceus"
-      }
+      },
+      "base_evolution": 493
     },
     "494":{
       "idx":494,
@@ -7082,6 +7476,8 @@
         "jpn":"ビクティニ",
         "jpn_ro":"Victini"
       }
+      ,
+      "base_evolution": 494
     },
     "495":{
       "idx":495,
