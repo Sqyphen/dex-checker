@@ -57,7 +57,17 @@ span {
 }
 
 .filters-form {
-	margin-top: 5px;
+	position: relative;
+	top: 5px;
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.filter-item {
+	display: inline-block;
+	width: 15%;
+	margin-top: -3px;
+	min-width: 24%;
 }
 
 .filters-form input {
@@ -69,14 +79,24 @@ span {
 }
 
 @media only screen and (max-width: 768px) {
-	.filters-form input{
+	.filters {
+		min-height: 40px;
+	}
+	.filter-item {
 		min-width: 24%;
 	}
 }
 
 @media only screen and (max-width: 480px) {
-	.filters-form input {
+	.filters {
+		min-height: 50px;
+	}
+	.filter-item {
 		min-width: 49%;
+		text-align: left;
+	}
+	.filter-item p {
+		margin-left: 2px;
 	}
 }
 
@@ -125,7 +145,10 @@ span {
 
 @media only screen and (max-width: 480px) {
 	.legend-item {
-		min-width: 49%;
+		min-width: 24%;
+	}
+	.legend-item p {
+		margin-left: 2px;
 	}
 }
 
@@ -157,4 +180,16 @@ span {
 
 .mon .id {
 	font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+	.pokedex {
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.pokedex {
+		margin-top: 60px;
+	}
 }

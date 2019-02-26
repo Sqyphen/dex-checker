@@ -4,6 +4,7 @@
 	<title>Dex</title>
 	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./assets/pokesprite.min.css">
 	<link rel="stylesheet" type="text/css" href="./assets/style.css">
@@ -11,12 +12,18 @@
 <body>
 	<div class="filters">
 		<form id="filters-form" class="filters-form">
-			<div>
+			<div class="filter-item">
 				<input type="checkbox" id="filter-caught" name="caught" value="caught"> Caught
 			</div>
-			<input type="checkbox" id="filter-regional" name="regional" value="regional" checked> Regional
-			<input type="checkbox" id="filter-not-in-pokemon-go" name="not-in-pokemon-go" value="not-in-pokemon-go"> Not in Go
-			<input type="checkbox" id="filter-have-base-evolution" name="have-base-evolution" value="have-base-evolution"> Missing but have base
+			<div class="filter-item">
+				<input type="checkbox" id="filter-regional" name="regional" value="regional" checked> Regional
+			</div>
+			<div class="filter-item">
+				<input type="checkbox" id="filter-not-in-pokemon-go" name="not-in-pokemon-go" value="not-in-pokemon-go"> Not in Go
+			</div>
+			<div class="filter-item">
+				<input type="checkbox" id="filter-have-base-evolution" name="have-base-evolution" value="have-base-evolution"> Missing but have base
+			</div>
 		</form>
 	</div>
 	<div class="legend">
