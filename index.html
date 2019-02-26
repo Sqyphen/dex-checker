@@ -2,6 +2,7 @@
 <html lang='en'>
 <head>
 	<title>Dex</title>
+	<meta charset="utf-8">
 	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 	<link rel="icon" href="./favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,45 +13,25 @@
 <body>
 	<div class="filters">
 		<form id="filters-form" class="filters-form">
-			<div class="filter-item">
-				<input type="checkbox" id="filter-caught" name="caught" value="caught"> Caught
+			<div class="filter-item caught">
+				<input type="checkbox" id="filter-caught" name="caught" value="caught" checked> Caught
 			</div>
-			<div class="filter-item">
+			<div class="filter-item missing">
+				<input type="checkbox" id="filter-missing" name="missing" value="missing" checked> Missing
+			</div>
+			<div class="filter-item regional">
 				<input type="checkbox" id="filter-regional" name="regional" value="regional" checked> Regional
 			</div>
-			<div class="filter-item">
-				<input type="checkbox" id="filter-not-in-pokemon-go" name="not-in-pokemon-go" value="not-in-pokemon-go"> Not in Go
+			<div class="filter-item missing-evolutions">
+				<input type="checkbox" id="filter-have-base-evolution" name="have-base-evolution" value="have-base-evolution" checked> Missing evolutions
 			</div>
-			<div class="filter-item">
-				<input type="checkbox" id="filter-have-base-evolution" name="have-base-evolution" value="have-base-evolution"> Missing but have base
+			<div class="filter-item not-in-pokemon-go">
+				<input type="checkbox" id="filter-not-in-pokemon-go" name="not-in-pokemon-go" value="not-in-pokemon-go" checked> Not in Go
 			</div>
 		</form>
 	</div>
-	<div class="legend">
-		<div class="legend-item">
-			<div class="square caught"></div>
-			<p>
-				Caught
-			</p>
-		</div>
-		<div class="legend-item">
-			<div class="square missing"></div>
-			<p>
-				Missing
-			</p>
-		</div>
-		<div class="legend-item">
-			<div class="square regional"></div>
-			<p>
-				Regional
-			</p>
-		</div>
-		<div class="legend-item">
-			<div class="square not-in-pokemon-go"></div>
-			<p>
-				Not in Go
-			</p>
-		</div>
+	<div class="controls">
+		<button type="button" class="edit">Edit</button>
 	</div>
 	<div id="pokedex" class="pokedex">
 		<!-- Populated by JS -->

@@ -25,11 +25,15 @@ span {
 	background: #ffc107;
 }
 
+.missing-evolutions {
+	background: #17a2b8;
+}
+
 .not-in-pokemon-go {
 	background: rgb(255,255,255); /* Old browsers */
-	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(66,75,89,1) 47%, rgba(66,75,89,1) 47%, rgba(66,75,89,1) 54%, rgba(255,255,255,1) 54%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 47%,rgba(66,75,89,1) 47%,rgba(66,75,89,1) 47%,rgba(66,75,89,1) 54%,rgba(255,255,255,1) 54%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 47%,rgba(66,75,89,1) 47%,rgba(66,75,89,1) 47%,rgba(66,75,89,1) 54%,rgba(255,255,255,1) 54%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(187,187,187,1) 47%, rgba(187,187,187,1) 47%, rgba(187,187,187,1) 54%, rgba(255,255,255,1) 54%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 47%,rgba(187,187,187,1) 47%,rgba(187,187,187,1) 47%,rgba(187,187,187,1) 54%,rgba(255,255,255,1) 54%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 47%,rgba(187,187,187,1) 47%,rgba(187,187,187,1) 47%,rgba(187,187,187,1) 54%,rgba(255,255,255,1) 54%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
@@ -50,7 +54,7 @@ span {
 	position: fixed;
 	text-align: center;
 	top: 0;
-	min-height: 30px;
+	min-height: 45px;
 	left: 0;
 	right: 0;
 	z-index: 1;
@@ -64,10 +68,12 @@ span {
 }
 
 .filter-item {
+	border: 1px solid #DDD;
+	border-radius: 3px;
 	display: inline-block;
-	width: 15%;
-	margin-top: -3px;
-	min-width: 24%;
+	margin-top: 3px;
+	min-width: 18%;
+	padding: 2px;
 }
 
 .filters-form input {
@@ -80,19 +86,19 @@ span {
 
 @media only screen and (max-width: 768px) {
 	.filters {
-		min-height: 40px;
+		min-height: 100px;
 	}
 	.filter-item {
-		min-width: 24%;
+		min-width: 40%;
 	}
 }
 
 @media only screen and (max-width: 480px) {
 	.filters {
-		min-height: 50px;
+		min-height: 100px;
 	}
 	.filter-item {
-		min-width: 49%;
+		min-width: 40%;
 		text-align: left;
 	}
 	.filter-item p {
@@ -101,55 +107,28 @@ span {
 }
 
 
-/* Legend */
+/* Controls */
 
-.legend {
+.controls {
 	background-color: white;
 	border-top: 1px solid #333;
 	position: fixed;
 	text-align: center;
 	bottom: 0;
-	min-height: 40px;
+	min-height: 20px;
 	left: 0;
 	right: 0;
 	z-index: 1;
+	padding: 10px;
 }
 
-.legend-item {
-	display: inline-block;
-	width: 15%;
-	margin-top: -3px;
-	min-width: 150px;
-}
-
-.legend-item .square {
-	border: 1px solid #666;
-	border-radius: 2px;
-	display: inline-block;
-	width: 15px;
-	height: 15px;
-	vertical-align: middle;
-}
-
-.legend-item p {
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 10px;
-}
-
-@media only screen and (max-width: 768px) {
-	.legend-item {
-		min-width: 24%;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	.legend-item {
-		min-width: 24%;
-	}
-	.legend-item p {
-		margin-left: 2px;
-	}
+.controls .edit {
+	background-color: #007bff;
+	border: 1px solid #007bff;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-size: 14px;
+	color: white;
 }
 
 
@@ -157,8 +136,8 @@ span {
 
 .pokedex {
 	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-bottom: 65px;
 }
 
 .mon {
@@ -184,12 +163,12 @@ span {
 
 @media only screen and (max-width: 768px) {
 	.pokedex {
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 }
 
 @media only screen and (max-width: 480px) {
 	.pokedex {
-		margin-top: 60px;
+		margin-top: 105px;
 	}
 }
