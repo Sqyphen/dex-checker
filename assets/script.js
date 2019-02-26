@@ -3,8 +3,8 @@
 const eleAllPokemon = document.getElementById('pokedex');
 const allFilterCheckboxes = document.querySelectorAll('form input[type=checkbox]');
 
-const maxPokemon = 488;
-const pokemonNotInGo = [235, 352, 377, 378, 379, 385, 386, 462];
+const maxPokemon = 494;
+const pokemonNotInGo = [352, 377, 378, 379, 385, 386, 462, 470, 471, 476, 479, 480, 481, 482, 483, 486, 489, 490, 491, 492, 493, 494];
 const pokemonRegional = [83, 115, 122, 128, 214, 222, 324, 335, 336, 337, 338, 369, 313, 314, 357, 417, 441, 455];
 const pokemonMissing = [128, 150, 154, 182, 214, 217, 222, 235, 243, 250, 271, 272, 275, 282, 289, 298, 314, 321, 324, 330, 334, 336, 350, 352, 357, 358, 359, 369, 371, 372, 373, 377, 378, 379, 381, 392, 402, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 419, 420, 421, 422, 423, 433, 438, 439, 441, 443, 444, 445, 447, 448, 449, 450, 455, 457, 458, 462, 463, 464, 465, 467, 468, 469, 470, 471, 472, 474, 475, 476, 477, 479, 480, 481, 482, 483, 486];
 
@@ -21,7 +21,8 @@ function populatePokedex(){
 	pokemonList = getFullPokemonList();
 	allPokemon = cleanFullPokemonList();
 	allPokemon = allPokemon.sort(compare);
-	setPokedex(allPokemon);
+	//setPokedex(allPokemon);
+	handleFilterToggle();
 }
 
 function refreshPokedex(filters){
@@ -37,6 +38,10 @@ function refreshPokedex(filters){
 
 	if(filters.includes('not-in-pokemon-go')){
 		allPokemonTemp = excludePokemon(allPokemonTemp, pokemonNotInGo);
+	}
+
+	if(filters.includes('have-base-evolution')){
+		allPokemonTemp = excludeScanPokemon(allPokemonTemp, pokemonMissing);
 	}
 
 	setPokedex(allPokemonTemp);
@@ -58,6 +63,24 @@ function filterPokemon(master, filter){
 function excludePokemon(master, filter){
 	return master.filter(mon => {
 		if(!filter.includes(mon.idx)){
+			return mon;
+		}
+	});
+}
+
+function excludeScanPokemon(master, filter){
+	let caughtBaseEvolution = [];
+
+	master.filter(mon => {
+		if(mon.base_evolution !== 0){
+			if(!filter.includes(mon.base_evolution)){
+				caughtBaseEvolution.push(mon.idx);
+			}
+		}
+	});
+
+	return master.filter(mon => {
+		if(!caughtBaseEvolution.includes(mon.idx)){
 			return mon;
 		}
 	});
@@ -94,10 +117,12 @@ function extract(array, min, max){
 			return mon;
 		}
 	}).map(mon => {
+		var be = (mon.base_evolution) ? mon.base_evolution : 0;
 		return {
 			idx: mon.idx,
 			fullname: mon.name.eng,
-			name: mon.slug.eng
+			name: mon.slug.eng,
+			base_evolution: be
 		};
 	});
 }
