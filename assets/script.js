@@ -38,7 +38,6 @@ function getStorageData(){
 		for(var i in json_data){
 			pokemonMissing.push(json_data[i]);
 		}
-		console.log(pokemonMissing);
 	} else {
 		pokemonMissing = pokemonAll.map(mon => mon.idx);
 	}
@@ -88,14 +87,6 @@ function setPokedex(pokemon){
 	populate(pokemon, elePokemonAll);
 	PkSpr.process_dom();
 	initPokemonBoxListeners();
-}
-
-function filterPokemon(master, filter){
-	return master.filter(mon => {
-		if(filter.includes(mon.idx)){
-			return mon;
-		}
-	});
 }
 
 function excludePokemon(master, filter){
@@ -184,7 +175,6 @@ function handleCaughtClick(){
 
 function getSelectedMons(){
 	allPokemonBoxes = document.querySelectorAll('.mon.selected');
-
 	var selectedMons = [];
 	
 	for (var i = 0; i < allPokemonBoxes.length; i++) {
