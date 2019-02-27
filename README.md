@@ -1,26 +1,37 @@
 # Dex checker
 
-Tool to help keep track of remaining mon's to catch/evolve
+Visual display tool to help keep track of remaining Pokémon, featured in Niantic's Pokémon Go, to catch/evolve.
 
-## Demo
+It also uses localStorage to keep track of your selections.
 
-Checkout a demo using my latest dex results: [https://sqyphen.github.io/dex-checker/index.html](https://sqyphen.github.io/dex-checker/index.html)
+![Alt text](./assets/screenshot.png?raw=true "Screenshot of the page in action")
 
-## Launch 
+## Reason
+
+I needed a quicker way to see all the Pokémon I had missing and show other's what was missing so they could say 'Oh, I have spare of that...'
+
+## Give it a try 
 
 - Clone the repo
 - Open the index.html file
+- Go
+- ...
+- Profit
 
+...or go to the demo page:
 
-Update the ```pokemonMissing``` const in script.js to match missing mons from your dex
+[https://sqyphen.github.io/dex-checker/index.html](https://sqyphen.github.io/dex-checker/index.html)
 
 
 ## Todo
 
 + add Aloan variations
 + add unown variations
++ add all known Pokémon (even if not in Pokemon Go right now)
++ add excpetion to include Meltan
++ create a tool to compare missing lists
 
 
 ## Thanks
 
-Thanks to msikma for [pokesprite](https://github.com/msikma/pokesprite), where the sprites, anames and numbers came from.
+Thanks to msikma for [pokesprite](https://github.com/msikma/pokesprite), where the sprites, names and numbers came from.
