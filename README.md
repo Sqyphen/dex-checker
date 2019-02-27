@@ -19,13 +19,6 @@ Update the ```pokemonMissing``` const in script.js to match missing mons from yo
 
 + add Aloan variations
 + add unown variations
-+ add option for user to add their own missing mons
-    - complete localstorage feature
-+ make 'not in go' line lighter
-+ combine filters and legend
-    - fix caught filter
-    - fix missing filter
-    - fix missing evolutions filter
 
 
 
