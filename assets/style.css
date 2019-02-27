@@ -174,6 +174,7 @@ span {
 	width: 75px;
 	padding: 3px;
 	margin: 3px;
+	overflow: hidden;
 }
 
 .mon:hover {
@@ -182,14 +183,19 @@ span {
 	cursor: pointer;
 }
 
+.mon.selected {
+	opacity: 0.8;
+}
+
 .mon.selected::after {
 	content: "";
-    width: 20px;
-    height: 20px;
-    top: 0;
-    left: 0;
-    background-color: green;
+    width: 45px;
+    height: 45px;
+    top: -22px;
+    left: -22px;
+    background-color: #28a745;
     position: absolute;
+    transform: rotate(45deg);
 }
 
 .mon .id {
