@@ -2,12 +2,17 @@
 
 const elePokemonAll = document.getElementById('pokedex');
 const allFilterCheckboxes = document.querySelectorAll('form input[type=checkbox]');
+const eleControlEdit = document.getElementById('control-edit');
+const eleControlCancel = document.getElementById('control-cancel');
+const eleControlMissing = document.getElementById('control-add-missing');
+const eleControlCaught = document.getElementById('control-add-caught');
 
 const maxPokemon = 494;
 const pokemonNotInGo = [352, 385, 386, 462, 470, 471, 476, 479, 480, 481, 482, 483, 486, 489, 490, 491, 492, 493, 494];
 const pokemonRegional = [83, 115, 122, 128, 214, 222, 324, 335, 336, 337, 338, 369, 313, 314, 357, 417, 441, 455];
 //const pokemonMissing = [128, 150, 154, 182, 214, 217, 222, 235, 243, 250, 271, 272, 275, 282, 289, 314, 321, 324, 330, 334, 336, 350, 352, 357, 358, 359, 369, 371, 372, 373, 377, 378, 379, 381, 384, 385, 392, 402, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 419, 420, 421, 422, 423, 433, 438, 439, 441, 443, 444, 445, 447, 448, 449, 450, 455, 457, 458, 462, 463, 464, 465, 467, 468, 469, 470, 471, 472, 474, 475, 476, 477, 479, 480, 481, 482, 483, 486];
 
+let editActive = false;
 let pokemonAll = [];
 let pokemonList = [];
 let pokemonMissing = [];
@@ -15,20 +20,36 @@ let allPokemonBoxes;
 
 
 function init(){
+	getAllPokemon();
+	getStorageData();
 	populatePokedex();
 	initListeners();
 }
 
-function getStorageData(){
-	if(localStorage.getItem('pokemonMissing') !== null){
-		pokemonMissing = localStorage.getItem('pokemonMissing');
-	}
-}
-
-function populatePokedex(){
+function getAllPokemon(){
 	pokemonList = getFullPokemonList();
 	pokemonAll = cleanFullPokemonList();
 	pokemonAll = pokemonAll.sort(compare);
+}
+
+function getStorageData(){
+	if(localStorage.getItem('pokemonMissing') !== null){
+		var json_data = JSON.parse(localStorage.getItem('pokemonMissing'));
+		for(var i in json_data){
+			pokemonMissing.push(json_data[i]);
+		}
+		console.log(pokemonMissing);
+	} else {
+		pokemonMissing = pokemonAll.map(mon => mon.idx);
+	}
+}
+
+function updateLocalStorage(){
+	localStorage.setItem('pokemonMissing', JSON.stringify(pokemonMissing));
+}
+
+function populatePokedex(){
+	getAllPokemon();
 	handleFilterToggle();
 }
 
@@ -36,22 +57,31 @@ function refreshPokedex(filters){
 	let pokemonAllTemp = pokemonAll;
 
 	if(filters.includes('caught')){
-		pokemonAllTemp = filterPokemon(pokemonAllTemp, pokemonMissing);
+		pokemonAllTemp = excludePokemon(pokemonAllTemp, calculateCaughtPokemon());
 	}
-
+	if(filters.includes('missing')){
+		pokemonAllTemp = excludePokemon(pokemonAllTemp, pokemonMissing);
+	}
 	if(filters.includes('regional')){
 		pokemonAllTemp = excludePokemon(pokemonAllTemp, pokemonRegional);
 	}
-
 	if(filters.includes('not-in-pokemon-go')){
 		pokemonAllTemp = excludePokemon(pokemonAllTemp, pokemonNotInGo);
 	}
-
 	if(filters.includes('have-base-evolution')){
 		pokemonAllTemp = excludeScanPokemon(pokemonAllTemp, pokemonMissing);
 	}
 
 	setPokedex(pokemonAllTemp);
+}
+
+function calculateCaughtPokemon(){
+	return pokemonAll.map(mon => {
+		if(!pokemonMissing.includes(mon.idx)){
+			return mon.idx;
+		}
+		return;
+	});
 }
 
 function setPokedex(pokemon){
@@ -99,7 +129,70 @@ function initListeners(){
 		allFilterCheckboxes[i].addEventListener('change', handleFilterToggle);
 	}
 
-	initPokemonBoxListeners();
+	eleControlEdit.addEventListener('click', handleEditClick);
+	eleControlCancel.addEventListener('click', handleCancelClick);
+	eleControlMissing.addEventListener('click', handleMissingClick);
+	eleControlCaught.addEventListener('click', handleCaughtClick);
+}
+
+function handleEditClick(){
+	editActive = true;
+	eleControlEdit.classList.add('hide');
+	eleControlCancel.classList.remove('hide');
+	eleControlMissing.classList.remove('hide');
+	eleControlCaught.classList.remove('hide');
+}
+
+function handleCancelClick(){
+	editActive = false;
+	eleControlEdit.classList.remove('hide');
+	eleControlCancel.classList.add('hide');
+	eleControlMissing.classList.add('hide');
+	eleControlCaught.classList.add('hide');
+}
+
+function handleMissingClick(){
+	var selectedMons = getSelectedMons();
+
+	for (var i = 0; i < selectedMons.length; i++) {
+		var idx = parseInt(selectedMons[i]);
+		if(!pokemonMissing.includes(idx)){
+			pokemonMissing.push((idx));
+		}
+	}
+
+	updateLocalStorage();
+	handleFilterToggle();
+	handleCancelClick();
+}
+
+function handleCaughtClick(){
+	var selectedMons = getSelectedMons();
+
+	for (var i = 0; i < selectedMons.length; i++) {
+		var idx = parseInt(selectedMons[i]);
+
+		if(pokemonMissing.includes(idx)){
+			pokemonMissing.splice(pokemonMissing.indexOf(idx), 1);
+		}
+	}
+
+	updateLocalStorage();
+	handleFilterToggle();
+	handleCancelClick();
+}
+
+function getSelectedMons(){
+	allPokemonBoxes = document.querySelectorAll('.mon.selected');
+
+	var selectedMons = [];
+	
+	for (var i = 0; i < allPokemonBoxes.length; i++) {
+		selectedMons.push(allPokemonBoxes[i].dataset.idx);
+		allPokemonBoxes[i].classList.remove('selected');
+	}
+
+	return selectedMons;
 }
 
 function initPokemonBoxListeners(){
@@ -121,20 +214,9 @@ function handleFilterToggle(){
 }
 
 function handleMonToggle(e){
-	//fix targetting
-	e.stopPropagation();
-	console.log(e.target);
-
-	//toggle hilighting on button
-
-	//if selection > 1
-		//activate button
-	
-	//if button pressed
-		//add all highlighted to missing storage array
-		//refresh dex display
-		//remove hilighting
-		//disable button
+	if(editActive){
+		e.currentTarget.classList.toggle('selected');
+	}
 }
 
 function getFullPokemonList(){
@@ -189,7 +271,7 @@ function populate(array, element){
 		}
 
 		//add data attr for dex number
-		newDom += '<div class="mon' + classes + '">';
+		newDom += '<div class="mon' + classes + '" data-idx="' + array[i].idx + '">';
 		newDom += '<span class="pkspr pkmn-' + array[i].name + '"></span><br />';
 		newDom += '<span class="name">' + array[i].fullname + '</span><br />';
 		newDom += '<span class="id">' + array[i].idx + '</span></div>';

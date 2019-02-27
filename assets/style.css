@@ -45,6 +45,10 @@ span {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc3545', endColorstr='#ffc107',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+.hide {
+	display: none;
+}
+
 
 /* Filters */
 
@@ -122,12 +126,32 @@ span {
 	padding: 10px;
 }
 
-.controls .edit {
-	background-color: #007bff;
-	border: 1px solid #007bff;
+.controls button {
 	border-radius: 5px;
 	padding: 10px 25px;
 	font-size: 14px;
+}
+
+.controls button:disabled {
+	opacity: 0.5;
+}
+
+.controls .edit,
+.controls .cancel {
+	background-color: #007bff;
+	border: 1px solid #007bff;
+	color: white;
+}
+
+.controls .add-missing {
+	background-color: #dc3545;
+	border: 1px solid #dc3545;
+	color: white;
+}
+
+.controls .add-caught {
+	background-color: #28a745;
+	border: 1px solid #28a745;
 	color: white;
 }
 
@@ -145,6 +169,7 @@ span {
 	border-radius: 5px;
 	display: inline-block;
 	text-align: center;
+	position: relative;
 	height: 75px;
 	width: 75px;
 	padding: 3px;
@@ -155,6 +180,16 @@ span {
 	background-color: #EEE; 
 	border: 1px solid #CCC;
 	cursor: pointer;
+}
+
+.mon.selected::after {
+	content: "";
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color: green;
+    position: absolute;
 }
 
 .mon .id {
