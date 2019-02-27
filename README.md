@@ -19,7 +19,6 @@ Update the ```pokemonMissing``` const in script.js to match missing mons from yo
 
 + add Aloan variations
 + add unown variations
-+ update style for selected mons
 
 
 ## Thanks
