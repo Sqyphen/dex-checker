@@ -20,7 +20,7 @@ I needed a quicker way to see all the Pokémon I had missing and show other's wh
 
 ...or go to the demo page:
 
-[https://sqyphen.github.io/dex-checker/index.html](https://sqyphen.github.io/dex-checker/index.html)
+[https://sqyphen.github.io/dex-checker/](https://sqyphen.github.io/dex-checker/)
 
 
 ## Todo
