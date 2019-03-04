@@ -28,8 +28,10 @@ I needed a quicker way to see all the Pokémon I had missing and show other's wh
 + add Aloan variations
 + add unown variations
 + add all known Pokémon (even if not in Pokemon Go right now)
-+ add excpetion to include Meltan
++ add exception to include Meltan
 + create a tool to compare missing lists
++ show missing evolutions with missing colours
++ show missing evolutions/missing colours with not in game
 
 
 ## Thanks
