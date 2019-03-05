@@ -8,7 +8,7 @@ const eleControlMissing = document.getElementById('control-add-missing');
 const eleControlCaught = document.getElementById('control-add-caught');
 
 const maxPokemon = 494;
-const pokemonNotInGo = [352, 385, 386, 462, 470, 471, 476, 479, 480, 481, 482, 486, 489, 490, 491, 492, 493, 494];
+const pokemonNotInGo = [352, 385, 386, 412, 413, 414, 420, 421, 422, 423, 439, 443, 444, 445, 449, 450, 462, 470, 471, 476, 479, 480, 481, 482, 486, 489, 490, 491, 492, 493, 494];
 const pokemonRegional = [83, 115, 122, 128, 214, 222, 324, 335, 336, 337, 338, 369, 313, 314, 357, 417, 441, 455];
 
 let editActive = false;
