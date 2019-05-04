@@ -10,7 +10,7 @@ It also uses localStorage to keep track of your selections.
 
 I needed a quicker way to see all the Pokémon I had missing and show other's what was missing so they could say 'Oh, I have spare of that...'
 
-## Give it a try 
+## Give it a try
 
 - Clone the repo
 - Open the index.html file
@@ -22,17 +22,20 @@ I needed a quicker way to see all the Pokémon I had missing and show other's wh
 
 [https://sqyphen.github.io/dex-checker/](https://sqyphen.github.io/dex-checker/)
 
-
 ## Todo
 
-+ add Aloan variations
-+ add unown variations
-+ add all known Pokémon (even if not in Pokemon Go right now)
-+ add exception to include Meltan
-+ create a tool to compare missing lists
-+ show missing evolutions with missing colours
-+ show missing evolutions/missing colours with not in game
-
+- add Aloan variations
+  - add Aloan filter flag
+- add Unown variations
+  - add Unown filter flag
+- add legnedary variations
+  - Deoxys
+  - Giratina
+- add new display for filter list (too many at the top now)
+- add exception to include Meltan
+- create a tool to compare missing lists
+- show missing evolutions with missing colours
+- show missing evolutions/missing colours with not in game
 
 ## Thanks
 
