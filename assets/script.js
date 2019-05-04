@@ -8,8 +8,11 @@ const eleControlEdit = document.getElementById("control-edit");
 const eleControlCancel = document.getElementById("control-cancel");
 const eleControlMissing = document.getElementById("control-add-missing");
 const eleControlCaught = document.getElementById("control-add-caught");
+const eleControlFilters = document.getElementById("control-filters-toggle");
+const eleControlFiltersList = document.getElementById("control-filters-list");
 
 const maxPokemon = 809;
+const pokemonAlternateForms = [];
 const pokemonNotInGo = [
   352,
   385,
@@ -427,6 +430,9 @@ function refreshPokedex(filters) {
   if (filters.includes("not-in-pokemon-go")) {
     pokemonAllTemp = excludePokemon(pokemonAllTemp, pokemonNotInGo);
   }
+  if (filters.includes("alternate-forms")) {
+    pokemonAllTemp = excludePokemon(pokemonAllTemp, pokemonAlternateForms);
+  }
   if (filters.includes("have-base-evolution")) {
     pokemonAllTemp = excludeScanPokemon(pokemonAllTemp, pokemonMissing);
   }
@@ -484,6 +490,13 @@ function initListeners() {
   eleControlCancel.addEventListener("click", handleCancelClick);
   eleControlMissing.addEventListener("click", handleMissingClick);
   eleControlCaught.addEventListener("click", handleCaughtClick);
+  eleControlFilters.addEventListener("click", handleFiltersClick);
+}
+
+function handleFiltersClick() {
+  eleControlFilters.classList.toggle("close");
+  eleControlFiltersList.classList.toggle("close");
+  elePokemonAll.classList.toggle("close");
 }
 
 function handleEditClick() {
@@ -495,6 +508,7 @@ function handleEditClick() {
 }
 
 function handleCancelClick() {
+  getSelectedMons();
   editActive = false;
   eleControlEdit.classList.remove("hide");
   eleControlCancel.classList.add("hide");
@@ -506,7 +520,10 @@ function handleMissingClick() {
   var selectedMons = getSelectedMons();
 
   for (var i = 0; i < selectedMons.length; i++) {
-    var idx = parseInt(selectedMons[i]);
+    var idx =
+      selectedMons[i].indexOf("-") > 0
+        ? selectedMons[i]
+        : parseInt(selectedMons[i]);
     if (!pokemonMissing.includes(idx)) {
       pokemonMissing.push(idx);
     }
@@ -521,7 +538,10 @@ function handleCaughtClick() {
   var selectedMons = getSelectedMons();
 
   for (var i = 0; i < selectedMons.length; i++) {
-    var idx = parseInt(selectedMons[i]);
+    var idx =
+      selectedMons[i].indexOf("-") > 0
+        ? selectedMons[i]
+        : parseInt(selectedMons[i]);
 
     if (pokemonMissing.includes(idx)) {
       pokemonMissing.splice(pokemonMissing.indexOf(idx), 1);
@@ -613,7 +633,9 @@ function extract(array, min, max) {
               base_evolution: be,
               class: "form-" + key
             };
+
             list.push(monAlternate);
+            pokemonAlternateForms.push(mon.idx + "-" + key);
           }
         }
       }
@@ -643,6 +665,10 @@ function populate(array, element) {
 
     if (pokemonMissing.includes(array[i].idx)) {
       classes += " missing";
+    }
+
+    if (array[i].class !== "") {
+      classes += " alternate-forms";
     }
 
     //add data attr for dex number

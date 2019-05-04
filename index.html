@@ -14,7 +14,10 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
   </head>
   <body>
-    <div class="filters">
+    <div id="control-filters-toggle" class="filters-toggle close">
+      <p>Filters</p>
+    </div>
+    <div id="control-filters-list" class="filters close">
       <form id="filters-form" class="filters-form">
         <div class="filter-item caught">
           <input
@@ -64,6 +67,16 @@
             value="not-in-pokemon-go"
           />
           Not in Go
+        </div>
+        <div class="filter-item alternate-form">
+          <input
+            type="checkbox"
+            id="filter-alternate-forms"
+            name="alternate-forms"
+            value="alternate-forms"
+            checked
+          />
+          Alternate forms
         </div>
       </form>
     </div>
