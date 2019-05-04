@@ -579,7 +579,8 @@ function cleanFullPokemonList() {
 }
 
 function extract(array, min, max) {
-  return array
+  var list = [];
+  array
     .filter(mon => {
       if (mon.idx >= min && mon.idx <= max) {
         return mon;
@@ -587,13 +588,37 @@ function extract(array, min, max) {
     })
     .map(mon => {
       var be = mon.base_evolution ? mon.base_evolution : 0;
-      return {
+      var originalMon = {
         idx: mon.idx,
+        number: mon.idx,
         fullname: mon.name.eng,
         name: mon.slug.eng,
-        base_evolution: be
+        base_evolution: be,
+        class: ""
       };
+
+      list.push(originalMon);
+
+      var versionInclusions = ["alola"];
+      var keys = Object.keys(mon.icons);
+
+      if (keys.length > 1) {
+        for (var key of keys) {
+          if (versionInclusions.includes(key)) {
+            var monAlternate = {
+              idx: mon.idx + "-" + key,
+              number: mon.idx,
+              fullname: mon.name.eng,
+              name: mon.slug.eng,
+              base_evolution: be,
+              class: "form-" + key
+            };
+            list.push(monAlternate);
+          }
+        }
+      }
     });
+  return list;
 }
 
 function compare(a, b) {
@@ -623,9 +648,14 @@ function populate(array, element) {
     //add data attr for dex number
     newDom +=
       '<div class="mon' + classes + '" data-idx="' + array[i].idx + '">';
-    newDom += '<span class="pkspr pkmn-' + array[i].name + '"></span><br />';
+    newDom +=
+      '<span class="pkspr pkmn-' +
+      array[i].name +
+      " " +
+      array[i].class +
+      '"></span><br />';
     newDom += '<span class="name">' + array[i].fullname + "</span><br />";
-    newDom += '<span class="id">' + array[i].idx + "</span></div>";
+    newDom += '<span class="id">' + array[i].number + "</span></div>";
   }
 
   element.innerHTML = newDom;
