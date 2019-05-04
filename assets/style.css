@@ -26,7 +26,7 @@ span {
 }
 
 .missing-evolutions {
-  background: #17a2b8;
+  /* background: #17a2b8; */
 }
 
 .not-in-pokemon-go {
@@ -288,7 +288,7 @@ span {
   display: inline-block;
   text-align: center;
   position: relative;
-  height: 75px;
+  height: 90px;
   width: 75px;
   padding: 3px;
   margin: 3px;
@@ -318,6 +318,11 @@ span {
 
 .mon .id {
   font-weight: bold;
+}
+
+.sub {
+  color: #333;
+  opacity: 0.7;
 }
 
 @media only screen and (max-width: 768px) {

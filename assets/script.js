@@ -12,6 +12,45 @@ const eleControlFilters = document.getElementById("control-filters-toggle");
 const eleControlFiltersList = document.getElementById("control-filters-list");
 
 const maxPokemon = 809;
+const versionInclusions = [
+  "alola",
+  "attack",
+  "defense",
+  "speed",
+  "origin",
+  "sunny",
+  "cloudy",
+  "rainy",
+  "sandy",
+  "trash",
+  "question",
+  "exclamation",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z"
+];
 const pokemonAlternateForms = [];
 const pokemonNotInGo = [
   352,
@@ -619,7 +658,6 @@ function extract(array, min, max) {
 
       list.push(originalMon);
 
-      var versionInclusions = ["alola"];
       var keys = Object.keys(mon.icons);
 
       if (keys.length > 1) {
@@ -644,8 +682,8 @@ function extract(array, min, max) {
 }
 
 function compare(a, b) {
-  if (a.idx < b.idx) return -1;
-  if (a.idx > b.idx) return 1;
+  if (a.number < b.number) return -1;
+  if (a.number > b.number) return 1;
   return 0;
 }
 
@@ -654,6 +692,7 @@ function populate(array, element) {
 
   for (let i = 0; i < array.length; i++) {
     let classes = "";
+    let name = array[i].fullname;
 
     if (pokemonNotInGo.includes(array[i].idx)) {
       classes += " not-in-pokemon-go";
@@ -668,6 +707,17 @@ function populate(array, element) {
     }
 
     if (array[i].class !== "") {
+      var typeName = array[i].class.split("-")[1];
+
+      switch (typeName) {
+        case "exclamation":
+          typeName = "!";
+          break;
+        case "question":
+          typeName = "?";
+          break;
+      }
+      name += "<br /><span class='sub'>" + typeName + "</span>";
       classes += " alternate-forms";
     }
 
@@ -680,7 +730,7 @@ function populate(array, element) {
       " " +
       array[i].class +
       '"></span><br />';
-    newDom += '<span class="name">' + array[i].fullname + "</span><br />";
+    newDom += '<span class="name">' + name + "</span><br />";
     newDom += '<span class="id">' + array[i].number + "</span></div>";
   }
 
