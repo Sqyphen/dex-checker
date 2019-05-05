@@ -53,6 +53,10 @@ const versionInclusions = [
 ];
 const pokemonAlternateForms = [];
 const pokemonNotInGo = [
+  "201-j",
+  "201-q",
+  "201-z",
+  "201-question",
   352,
   385,
   412,
