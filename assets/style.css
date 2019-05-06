@@ -293,6 +293,7 @@ span {
   padding: 3px;
   margin: 3px;
   overflow: hidden;
+  vertical-align: top;
 }
 
 .mon:hover {
