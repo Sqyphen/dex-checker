@@ -1,105 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Dex</title>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Noto+Sans"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="./assets/pokesprite.min.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-  </head>
-  <body>
-    <div id="control-filters-toggle" class="filters-toggle close">
-      <p>Filters</p>
-    </div>
-    <div id="control-filters-list" class="filters close">
-      <form id="filters-form" class="filters-form">
-        <div class="filter-item caught">
-          <input
-            type="checkbox"
-            id="filter-caught"
-            name="caught"
-            value="caught"
-            checked
-          />
-          Caught
-        </div>
-        <div class="filter-item missing">
-          <input
-            type="checkbox"
-            id="filter-missing"
-            name="missing"
-            value="missing"
-            checked
-          />
-          Missing
-        </div>
-        <div class="filter-item regional">
-          <input
-            type="checkbox"
-            id="filter-regional"
-            name="regional"
-            value="regional"
-            checked
-          />
-          Regional
-        </div>
-        <div class="filter-item missing-evolutions">
-          <input
-            type="checkbox"
-            id="filter-have-base-evolution"
-            name="have-base-evolution"
-            value="have-base-evolution"
-            checked
-          />
-          Missing evolutions
-        </div>
-        <div class="filter-item alternate-form">
-          <input
-            type="checkbox"
-            id="filter-alternate-forms"
-            name="alternate-forms"
-            value="alternate-forms"
-            checked
-          />
-          Alternate forms
-        </div>
-        <div class="filter-item not-in-pokemon-go">
-          <input
-            type="checkbox"
-            id="filter-not-in-pokemon-go"
-            name="not-in-pokemon-go"
-            value="not-in-pokemon-go"
-          />
-          Not in Go
-        </div>
-      </form>
-    </div>
-    <div class="controls">
-      <button type="button" id="control-edit" class="edit">Edit</button>
-      <button type="button" id="control-add-missing" class="add-missing hide">
-        Add to Missing
-      </button>
-      <button type="button" id="control-add-caught" class="add-caught hide">
-        Add to Caught
-      </button>
-      <button type="button" id="control-cancel" class="cancel hide">
-        Cancel
-      </button>
-    </div>
-    <div id="pokedex" class="pokedex">
-      <!-- Populated by JS -->
-    </div>
-    <span class="version">
-      v1.0.0.1
-    </span>
-    <script src="./assets/pokesprite.min.js"></script>
-    <script src="./assets/pokemon-list.js"></script>
-    <script src="./assets/script.js"></script>
-  </body>
+	<head>
+		<title>Dex</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Noto+Sans"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="./assets/pokesprite.min.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="./assets/style.css" />
+	</head>
+	<body>
+		<div id="control-filters-toggle" class="filters-toggle close">
+			<p>Filters</p>
+		</div>
+		<div id="control-filters-list" class="filters close">
+			<form id="filters-form" class="filters-form">
+				<div class="filter-item caught">
+					<input
+						type="checkbox"
+						id="filter-caught"
+						name="caught"
+						value="caught"
+						checked
+					/>
+					Caught
+				</div>
+				<div class="filter-item missing">
+					<input
+						type="checkbox"
+						id="filter-missing"
+						name="missing"
+						value="missing"
+						checked
+					/>
+					Missing
+				</div>
+				<div class="filter-item regional">
+					<input
+						type="checkbox"
+						id="filter-regional"
+						name="regional"
+						value="regional"
+						checked
+					/>
+					Regional
+				</div>
+				<div class="filter-item missing-evolutions">
+					<input
+						type="checkbox"
+						id="filter-have-base-evolution"
+						name="have-base-evolution"
+						value="have-base-evolution"
+						checked
+					/>
+					Missing evolutions
+				</div>
+				<div class="filter-item alternate-form">
+					<input
+						type="checkbox"
+						id="filter-alternate-forms"
+						name="alternate-forms"
+						value="alternate-forms"
+						checked
+					/>
+					Alternate forms
+				</div>
+				<div class="filter-item not-in-pokemon-go">
+					<input
+						type="checkbox"
+						id="filter-not-in-pokemon-go"
+						name="not-in-pokemon-go"
+						value="not-in-pokemon-go"
+					/>
+					Not in Go
+				</div>
+			</form>
+		</div>
+		<div class="controls">
+			<button type="button" id="control-edit" class="edit">Edit</button>
+			<button
+				type="button"
+				id="control-add-missing"
+				class="add-missing hide"
+			>
+				Add to Missing
+			</button>
+			<button
+				type="button"
+				id="control-add-caught"
+				class="add-caught hide"
+			>
+				Add to Caught
+			</button>
+			<button type="button" id="control-cancel" class="cancel hide">
+				Cancel
+			</button>
+		</div>
+		<div id="pokedex" class="pokedex">
+			<!-- Populated by JS -->
+		</div>
+		<span class="version">
+			v1.0.1
+		</span>
+		<script src="./assets/pokesprite.min.js"></script>
+		<script src="./assets/pokemon-list.js"></script>
+		<script src="./assets/script.js"></script>
+	</body>
 </html>
