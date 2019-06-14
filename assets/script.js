@@ -60,7 +60,6 @@ const pokemonNotInGo = [
 	"201-z",
 	"201-question",
 	352,
-	385,
 	439,
 	479,
 	486,
