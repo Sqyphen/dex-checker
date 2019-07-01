@@ -5194,16 +5194,7 @@
 			"jpn": "gameiru"
 		},
 		"icons": {
-			".": {},
-			"plant": {
-				"is_duplicate_from": "."
-			},
-			"sandy": {
-				"is_duplicate_from": "."
-			},
-			"trash": {
-				"is_duplicate_from": "."
-			}
+			".": {}
 		},
 		"name": {
 			"eng": "Mothim",
