@@ -1,71 +1,68 @@
 /* jshint strict:false, esversion: 6 */
 
-const elePokemonAll = document.getElementById("pokedex");
+const elePokemonAll = document.getElementById('pokedex');
 const allFilterCheckboxes = document.querySelectorAll(
-	"form input[type=checkbox]"
+	'form input[type=checkbox]'
 );
-const eleControlEdit = document.getElementById("control-edit");
-const eleControlCancel = document.getElementById("control-cancel");
-const eleControlMissing = document.getElementById("control-add-missing");
-const eleControlCaught = document.getElementById("control-add-caught");
-const eleControlFilters = document.getElementById("control-filters-toggle");
-const eleControlFiltersList = document.getElementById("control-filters-list");
+const eleControlEdit = document.getElementById('control-edit');
+const eleControlCancel = document.getElementById('control-cancel');
+const eleControlMissing = document.getElementById('control-add-missing');
+const eleControlCaught = document.getElementById('control-add-caught');
+const eleControlFilters = document.getElementById('control-filters-toggle');
+const eleControlFiltersList = document.getElementById('control-filters-list');
 
 const maxPokemon = 809;
 const versionInclusions = [
-	"alola",
-	"attack",
-	"defense",
-	"speed",
-	"origin",
-	"sunny",
-	"cloudy",
-	"rainy",
-	"sandy",
-	"trash",
-	"question",
-	"exclamation",
-	"sunshine",
-	"east",
-	"b",
-	"c",
-	"d",
-	"e",
-	"f",
-	"g",
-	"h",
-	"i",
-	"j",
-	"k",
-	"l",
-	"m",
-	"n",
-	"o",
-	"p",
-	"q",
-	"r",
-	"s",
-	"t",
-	"u",
-	"v",
-	"w",
-	"x",
-	"y",
-	"z"
+	'alola',
+	'attack',
+	'defense',
+	'speed',
+	'origin',
+	'sunny',
+	'cloudy',
+	'rainy',
+	'sandy',
+	'trash',
+	'question',
+	'exclamation',
+	'sunshine',
+	'east',
+	'b',
+	'c',
+	'd',
+	'e',
+	'f',
+	'g',
+	'h',
+	'i',
+	'j',
+	'k',
+	'l',
+	'm',
+	'n',
+	'o',
+	'p',
+	'q',
+	'r',
+	's',
+	't',
+	'u',
+	'v',
+	'w',
+	'x',
+	'y',
+	'z'
 ];
 const pokemonAlternateForms = [];
 const pokemonNotInGo = [
-	"201-j",
-	"201-q",
-	"201-z",
-	"201-question",
+	'201-j',
+	'201-q',
+	'201-z',
+	'201-question',
 	352,
-	439,
 	479,
-	486,
 	489,
 	490,
-	491,
 	492,
 	493,
 	494,
@@ -105,8 +102,6 @@ const pokemonNotInGo = [
 	559,
 	560,
 	561,
-	562,
-	563,
 	564,
 	565,
 	566,
@@ -352,6 +347,7 @@ const pokemonRegional = [
 	314,
 	357,
 	417,
+	439,
 	441,
 	455,
 	511,
@@ -384,8 +380,8 @@ function getAllPokemon() {
 }
 
 function getStorageData() {
-	if (localStorage.getItem("pokemonMissing") !== null) {
-		var json_data = JSON.parse(localStorage.getItem("pokemonMissing"));
+	if (localStorage.getItem('pokemonMissing') !== null) {
+		var json_data = JSON.parse(localStorage.getItem('pokemonMissing'));
 		for (var i in json_data) {
 			pokemonMissing.push(json_data[i]);
 		}
@@ -395,7 +391,7 @@ function getStorageData() {
 }
 
 function updateLocalStorage() {
-	localStorage.setItem("pokemonMissing", JSON.stringify(pokemonMissing));
+	localStorage.setItem('pokemonMissing', JSON.stringify(pokemonMissing));
 }
 
 function populatePokedex() {
@@ -406,25 +402,22 @@ function populatePokedex() {
 function refreshPokedex(filters) {
 	let pokemonAllTemp = pokemonAll;
 
-	if (filters.includes("caught")) {
-		pokemonAllTemp = excludePokemon(
-			pokemonAllTemp,
-			calculateCaughtPokemon()
-		);
+	if (filters.includes('caught')) {
+		pokemonAllTemp = excludePokemon(pokemonAllTemp, calculateCaughtPokemon());
 	}
-	if (filters.includes("missing")) {
+	if (filters.includes('missing')) {
 		pokemonAllTemp = excludePokemon(pokemonAllTemp, pokemonMissing);
 	}
-	if (filters.includes("regional")) {
+	if (filters.includes('regional')) {
 		pokemonAllTemp = excludePokemon(pokemonAllTemp, pokemonRegional);
 	}
-	if (filters.includes("not-in-pokemon-go")) {
+	if (filters.includes('not-in-pokemon-go')) {
 		pokemonAllTemp = excludePokemon(pokemonAllTemp, pokemonNotInGo);
 	}
-	if (filters.includes("alternate-forms")) {
+	if (filters.includes('alternate-forms')) {
 		pokemonAllTemp = excludePokemon(pokemonAllTemp, pokemonAlternateForms);
 	}
-	if (filters.includes("have-base-evolution")) {
+	if (filters.includes('have-base-evolution')) {
 		pokemonAllTemp = excludeScanPokemon(pokemonAllTemp, pokemonMissing);
 	}
 
@@ -474,37 +467,37 @@ function excludeScanPokemon(master, filter) {
 
 function initListeners() {
 	for (let i = 0; i < allFilterCheckboxes.length; i++) {
-		allFilterCheckboxes[i].addEventListener("change", handleFilterToggle);
+		allFilterCheckboxes[i].addEventListener('change', handleFilterToggle);
 	}
 
-	eleControlEdit.addEventListener("click", handleEditClick);
-	eleControlCancel.addEventListener("click", handleCancelClick);
-	eleControlMissing.addEventListener("click", handleMissingClick);
-	eleControlCaught.addEventListener("click", handleCaughtClick);
-	eleControlFilters.addEventListener("click", handleFiltersClick);
+	eleControlEdit.addEventListener('click', handleEditClick);
+	eleControlCancel.addEventListener('click', handleCancelClick);
+	eleControlMissing.addEventListener('click', handleMissingClick);
+	eleControlCaught.addEventListener('click', handleCaughtClick);
+	eleControlFilters.addEventListener('click', handleFiltersClick);
 }
 
 function handleFiltersClick() {
-	eleControlFilters.classList.toggle("close");
-	eleControlFiltersList.classList.toggle("close");
-	elePokemonAll.classList.toggle("close");
+	eleControlFilters.classList.toggle('close');
+	eleControlFiltersList.classList.toggle('close');
+	elePokemonAll.classList.toggle('close');
 }
 
 function handleEditClick() {
 	editActive = true;
-	eleControlEdit.classList.add("hide");
-	eleControlCancel.classList.remove("hide");
-	eleControlMissing.classList.remove("hide");
-	eleControlCaught.classList.remove("hide");
+	eleControlEdit.classList.add('hide');
+	eleControlCancel.classList.remove('hide');
+	eleControlMissing.classList.remove('hide');
+	eleControlCaught.classList.remove('hide');
 }
 
 function handleCancelClick() {
 	getSelectedMons();
 	editActive = false;
-	eleControlEdit.classList.remove("hide");
-	eleControlCancel.classList.add("hide");
-	eleControlMissing.classList.add("hide");
-	eleControlCaught.classList.add("hide");
+	eleControlEdit.classList.remove('hide');
+	eleControlCancel.classList.add('hide');
+	eleControlMissing.classList.add('hide');
+	eleControlCaught.classList.add('hide');
 }
 
 function handleMissingClick() {
@@ -512,7 +505,7 @@ function handleMissingClick() {
 
 	for (var i = 0; i < selectedMons.length; i++) {
 		var idx =
-			selectedMons[i].indexOf("-") > 0
+			selectedMons[i].indexOf('-') > 0
 				? selectedMons[i]
 				: parseInt(selectedMons[i]);
 		if (!pokemonMissing.includes(idx)) {
@@ -530,7 +523,7 @@ function handleCaughtClick() {
 
 	for (var i = 0; i < selectedMons.length; i++) {
 		var idx =
-			selectedMons[i].indexOf("-") > 0
+			selectedMons[i].indexOf('-') > 0
 				? selectedMons[i]
 				: parseInt(selectedMons[i]);
 
@@ -545,22 +538,22 @@ function handleCaughtClick() {
 }
 
 function getSelectedMons() {
-	allPokemonBoxes = document.querySelectorAll(".mon.selected");
+	allPokemonBoxes = document.querySelectorAll('.mon.selected');
 	var selectedMons = [];
 
 	for (var i = 0; i < allPokemonBoxes.length; i++) {
 		selectedMons.push(allPokemonBoxes[i].dataset.idx);
-		allPokemonBoxes[i].classList.remove("selected");
+		allPokemonBoxes[i].classList.remove('selected');
 	}
 
 	return selectedMons;
 }
 
 function initPokemonBoxListeners() {
-	allPokemonBoxes = document.getElementsByClassName("mon");
+	allPokemonBoxes = document.getElementsByClassName('mon');
 
 	for (let i = 0; i < allPokemonBoxes.length; i++) {
-		allPokemonBoxes[i].addEventListener("click", handleMonToggle, true);
+		allPokemonBoxes[i].addEventListener('click', handleMonToggle, true);
 	}
 }
 
@@ -576,7 +569,7 @@ function handleFilterToggle() {
 
 function handleMonToggle(e) {
 	if (editActive) {
-		e.currentTarget.classList.toggle("selected");
+		e.currentTarget.classList.toggle('selected');
 	}
 }
 
@@ -605,7 +598,7 @@ function extract(array, min, max) {
 				fullname: mon.name.eng,
 				name: mon.slug.eng,
 				base_evolution: be,
-				class: ""
+				class: ''
 			};
 
 			list.push(originalMon);
@@ -616,16 +609,16 @@ function extract(array, min, max) {
 				for (var key of keys) {
 					if (versionInclusions.includes(key)) {
 						var monAlternate = {
-							idx: mon.idx + "-" + key,
+							idx: mon.idx + '-' + key,
 							number: mon.idx,
 							fullname: mon.name.eng,
 							name: mon.slug.eng,
 							base_evolution: be,
-							class: "form-" + key
+							class: 'form-' + key
 						};
 
 						list.push(monAlternate);
-						pokemonAlternateForms.push(mon.idx + "-" + key);
+						pokemonAlternateForms.push(mon.idx + '-' + key);
 					}
 				}
 			}
@@ -640,37 +633,37 @@ function compare(a, b) {
 }
 
 function populate(array, element) {
-	let newDom = "";
+	let newDom = '';
 
 	for (let i = 0; i < array.length; i++) {
-		let classes = "";
+		let classes = '';
 		let name = array[i].fullname;
 
 		if (pokemonNotInGo.includes(array[i].idx)) {
-			classes += " not-in-pokemon-go";
+			classes += ' not-in-pokemon-go';
 		}
 
 		if (pokemonRegional.includes(array[i].idx)) {
-			classes += " regional";
+			classes += ' regional';
 		}
 
 		if (pokemonMissing.includes(array[i].idx)) {
-			classes += " missing";
+			classes += ' missing';
 		}
 
-		if (array[i].class !== "") {
-			var typeName = array[i].class.split("-")[1];
+		if (array[i].class !== '') {
+			var typeName = array[i].class.split('-')[1];
 
 			switch (typeName) {
-				case "exclamation":
-					typeName = "!";
+				case 'exclamation':
+					typeName = '!';
 					break;
-				case "question":
-					typeName = "?";
+				case 'question':
+					typeName = '?';
 					break;
 			}
-			name += "<br /><span class='sub'>" + typeName + "</span>";
-			classes += " alternate-forms";
+			name += "<br /><span class='sub'>" + typeName + '</span>';
+			classes += ' alternate-forms';
 		}
 
 		//add data attr for dex number
@@ -679,11 +672,11 @@ function populate(array, element) {
 		newDom +=
 			'<span class="pkspr pkmn-' +
 			array[i].name +
-			" " +
+			' ' +
 			array[i].class +
 			'"></span><br />';
-		newDom += '<span class="name">' + name + "</span><br />";
-		newDom += '<span class="id">' + array[i].number + "</span></div>";
+		newDom += '<span class="name">' + name + '</span><br />';
+		newDom += '<span class="id">' + array[i].number + '</span></div>';
 	}
 
 	element.innerHTML = newDom;
