@@ -6,47 +6,38 @@
 		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
 		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Noto+Sans"
-			rel="stylesheet"
-		/>
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="./assets/pokesprite.min.css" />
 		<link rel="stylesheet" type="text/css" href="./assets/style.css" />
 	</head>
 	<body>
+		<div id="modalOverlay" class="modalOverlay hide"></div>
+		<div id="shareModal" class="shareModal hide">
+			<p>Copy this link to share your caught Pokémon</p>
+			<input id="shareModalLink" type="text" readonly />
+			<button type="button" id="copy-link" class="copy">Copy link to clipboard</button>
+		</div>
 		<div id="control-filters-toggle" class="filters-toggle close">
 			<p>Filters</p>
+		</div>
+		<div id="shared-status" class="sharedStatus hide">
+			<p>
+				This is a shared Dex<br />
+				<a id="shared-status-link" href="#">Click here to see your own list</a>
+			</p>
 		</div>
 		<div id="control-filters-list" class="filters close">
 			<form id="filters-form" class="filters-form">
 				<div class="filter-item caught">
-					<input
-						type="checkbox"
-						id="filter-caught"
-						name="caught"
-						value="caught"
-						checked
-					/>
+					<input type="checkbox" id="filter-caught" name="caught" value="caught" checked />
 					Caught
 				</div>
 				<div class="filter-item missing">
-					<input
-						type="checkbox"
-						id="filter-missing"
-						name="missing"
-						value="missing"
-						checked
-					/>
+					<input type="checkbox" id="filter-missing" name="missing" value="missing" checked />
 					Missing
 				</div>
 				<div class="filter-item regional">
-					<input
-						type="checkbox"
-						id="filter-regional"
-						name="regional"
-						value="regional"
-						checked
-					/>
+					<input type="checkbox" id="filter-regional" name="regional" value="regional" checked />
 					Regional
 				</div>
 				<div class="filter-item missing-evolutions">
@@ -60,28 +51,18 @@
 					Missing evolutions
 				</div>
 				<div class="filter-item alternate-form">
-					<input
-						type="checkbox"
-						id="filter-alternate-forms"
-						name="alternate-forms"
-						value="alternate-forms"
-						checked
-					/>
+					<input type="checkbox" id="filter-alternate-forms" name="alternate-forms" value="alternate-forms" checked />
 					Alternate forms
 				</div>
 				<div class="filter-item not-in-pokemon-go">
-					<input
-						type="checkbox"
-						id="filter-not-in-pokemon-go"
-						name="not-in-pokemon-go"
-						value="not-in-pokemon-go"
-					/>
+					<input type="checkbox" id="filter-not-in-pokemon-go" name="not-in-pokemon-go" value="not-in-pokemon-go" />
 					Not in Go
 				</div>
 			</form>
 		</div>
-		<div class="controls">
+		<div id="controls" class="controls">
 			<button type="button" id="control-edit" class="edit">Edit</button>
+			<button type="button" id="control-share" class="share">Share</button>
 			<button type="button" id="control-add-missing" class="add-missing hide">
 				Add to Missing
 			</button>
@@ -96,7 +77,7 @@
 			<!-- Populated by JS -->
 		</div>
 		<span class="version">
-			v1.2.1
+			v1.3.0
 		</span>
 		<script src="./assets/pokesprite.min.js"></script>
 		<script src="./assets/pokemon-list.js"></script>

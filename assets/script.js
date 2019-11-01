@@ -1,15 +1,23 @@
 /* jshint strict:false, esversion: 6 */
 
 const elePokemonAll = document.getElementById('pokedex');
-const allFilterCheckboxes = document.querySelectorAll(
-	'form input[type=checkbox]'
-);
+const allFilterCheckboxes = document.querySelectorAll('form input[type=checkbox]');
+
+const eleControls = document.getElementById('controls');
 const eleControlEdit = document.getElementById('control-edit');
+const eleControlShare = document.getElementById('control-share');
 const eleControlCancel = document.getElementById('control-cancel');
 const eleControlMissing = document.getElementById('control-add-missing');
 const eleControlCaught = document.getElementById('control-add-caught');
 const eleControlFilters = document.getElementById('control-filters-toggle');
 const eleControlFiltersList = document.getElementById('control-filters-list');
+
+const eleModalOverlay = document.getElementById('modalOverlay');
+const eleShareModal = document.getElementById('shareModal');
+const eleShareModalLink = document.getElementById('shareModalLink');
+const eleCopyLink = document.getElementById('copy-link');
+const eleSharedStatus = document.getElementById('shared-status');
+const eleSharedStatusLink = document.getElementById('shared-status-link');
 
 const maxPokemon = 809;
 const versionInclusions = [
@@ -362,6 +370,7 @@ const pokemonRegional = [
 	632
 ];
 
+let isShared = getParameterByName('shared');
 let editActive = false;
 let pokemonAll = [];
 let pokemonList = [];
@@ -382,13 +391,17 @@ function getAllPokemon() {
 }
 
 function getStorageData() {
-	if (localStorage.getItem('pokemonMissing') !== null) {
-		var json_data = JSON.parse(localStorage.getItem('pokemonMissing'));
-		for (var i in json_data) {
-			pokemonMissing.push(json_data[i]);
-		}
+	if (isShared) {
+		pokemonMissing = JSON.parse(getParameterByName('missing'));
 	} else {
-		pokemonMissing = pokemonAll.map(mon => mon.idx);
+		if (localStorage.getItem('pokemonMissing') !== null) {
+			var json_data = JSON.parse(localStorage.getItem('pokemonMissing'));
+			for (var i in json_data) {
+				pokemonMissing.push(json_data[i]);
+			}
+		} else {
+			pokemonMissing = pokemonAll.map(mon => mon.idx);
+		}
 	}
 }
 
@@ -472,11 +485,22 @@ function initListeners() {
 		allFilterCheckboxes[i].addEventListener('change', handleFilterToggle);
 	}
 
+	eleControlFilters.addEventListener('click', handleFiltersClick);
+
+	if (isShared === 'true') {
+		eleControls.classList.add('hide');
+		eleSharedStatus.classList.remove('hide');
+		eleSharedStatusLink.href = window.location.pathname;
+		return;
+	}
+
 	eleControlEdit.addEventListener('click', handleEditClick);
+	eleControlShare.addEventListener('click', handleShareClick);
 	eleControlCancel.addEventListener('click', handleCancelClick);
 	eleControlMissing.addEventListener('click', handleMissingClick);
 	eleControlCaught.addEventListener('click', handleCaughtClick);
-	eleControlFilters.addEventListener('click', handleFiltersClick);
+	eleModalOverlay.addEventListener('click', handleModalClick);
+	eleCopyLink.addEventListener('click', handleCopyLinkClick);
 }
 
 function handleFiltersClick() {
@@ -488,15 +512,36 @@ function handleFiltersClick() {
 function handleEditClick() {
 	editActive = true;
 	eleControlEdit.classList.add('hide');
+	eleControlShare.classList.add('hide');
 	eleControlCancel.classList.remove('hide');
 	eleControlMissing.classList.remove('hide');
 	eleControlCaught.classList.remove('hide');
+}
+
+function handleShareClick() {
+	var baseURL = window.location.href;
+	eleShareModalLink.value = baseURL + '?shared=true&missing=' + JSON.stringify(pokemonMissing);
+	eleModalOverlay.classList.remove('hide');
+	eleShareModal.classList.remove('hide');
+	document.body.classList.add('lockOverflow');
+}
+
+function handleCopyLinkClick() {
+	eleShareModalLink.select();
+	document.execCommand('copy');
+}
+
+function handleModalClick() {
+	eleModalOverlay.classList.add('hide');
+	eleShareModal.classList.add('hide');
+	document.body.classList.remove('lockOverflow');
 }
 
 function handleCancelClick() {
 	getSelectedMons();
 	editActive = false;
 	eleControlEdit.classList.remove('hide');
+	eleControlShare.classList.remove('hide');
 	eleControlCancel.classList.add('hide');
 	eleControlMissing.classList.add('hide');
 	eleControlCaught.classList.add('hide');
@@ -506,10 +551,7 @@ function handleMissingClick() {
 	var selectedMons = getSelectedMons();
 
 	for (var i = 0; i < selectedMons.length; i++) {
-		var idx =
-			selectedMons[i].indexOf('-') > 0
-				? selectedMons[i]
-				: parseInt(selectedMons[i]);
+		var idx = selectedMons[i].indexOf('-') > 0 ? selectedMons[i] : parseInt(selectedMons[i]);
 		if (!pokemonMissing.includes(idx)) {
 			pokemonMissing.push(idx);
 		}
@@ -524,10 +566,7 @@ function handleCaughtClick() {
 	var selectedMons = getSelectedMons();
 
 	for (var i = 0; i < selectedMons.length; i++) {
-		var idx =
-			selectedMons[i].indexOf('-') > 0
-				? selectedMons[i]
-				: parseInt(selectedMons[i]);
+		var idx = selectedMons[i].indexOf('-') > 0 ? selectedMons[i] : parseInt(selectedMons[i]);
 
 		if (pokemonMissing.includes(idx)) {
 			pokemonMissing.splice(pokemonMissing.indexOf(idx), 1);
@@ -669,19 +708,23 @@ function populate(array, element) {
 		}
 
 		//add data attr for dex number
-		newDom +=
-			'<div class="mon' + classes + '" data-idx="' + array[i].idx + '">';
-		newDom +=
-			'<span class="pkspr pkmn-' +
-			array[i].name +
-			' ' +
-			array[i].class +
-			'"></span><br />';
+		newDom += '<div class="mon' + classes + '" data-idx="' + array[i].idx + '">';
+		newDom += '<span class="pkspr pkmn-' + array[i].name + ' ' + array[i].class + '"></span><br />';
 		newDom += '<span class="name">' + name + '</span><br />';
 		newDom += '<span class="id">' + array[i].number + '</span></div>';
 	}
 
 	element.innerHTML = newDom;
+}
+
+function getParameterByName(name, url) {
+	if (!url) url = window.location.href;
+	name = name.replace(/[\[\]]/g, '\\$&');
+	var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+		results = regex.exec(url);
+	if (!results) return null;
+	if (!results[2]) return '';
+	return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
 init();
