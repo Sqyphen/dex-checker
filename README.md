@@ -4,7 +4,7 @@ Visual display tool to help keep track of remaining Pokémon, featured in Nianti
 
 It also uses localStorage to keep track of your selections.
 
-![Alt text](./assets/screenshot.png?raw=true "Screenshot of the page in action")
+![Alt text](./assets/screenshot.png?raw=true 'Screenshot of the page in action')
 
 ## Reason
 
@@ -25,6 +25,7 @@ I needed a quicker way to see all the Pokémon I had missing and show other's wh
 ## Todo
 
 - create a tool to compare missing lists
+- add new sprites (when available) from Sword/Shield
 
 ## Thanks
 
