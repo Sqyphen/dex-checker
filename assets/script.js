@@ -27,6 +27,7 @@ const versionInclusions = [
 	'speed',
 	'origin',
 	'sunny',
+	'snowy',
 	'cloudy',
 	'rainy',
 	'sandy',
