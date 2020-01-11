@@ -303,7 +303,6 @@ const pokemonNotInGo = [
 	807
 ];
 const pokemonRegional = [
-	'550-blue-striped',
 	83,
 	115,
 	122,
@@ -335,6 +334,7 @@ const pokemonRegional = [
 	538,
 	539,
 	550,
+	'550-blue-striped',
 	556,
 	561,
 	631,
