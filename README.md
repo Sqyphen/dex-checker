@@ -4,6 +4,8 @@ Visual display tool to help keep track of remaining Pokémon, featured in Nianti
 
 It also uses localStorage to keep track of your selections.
 
+[https://sqyphen.github.io/dex-checker/](https://sqyphen.github.io/dex-checker/)
+
 ![Alt text](./assets/screenshot.png?raw=true 'Screenshot of the page in action')
 
 ## Reason
