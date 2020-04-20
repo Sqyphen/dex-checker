@@ -62,7 +62,7 @@ const versionInclusions = [
 	'w',
 	'x',
 	'y',
-	'z'
+	'z',
 ];
 const pokemonAlternateForms = [];
 const pokemonNotInGo = [
@@ -118,7 +118,6 @@ const pokemonNotInGo = [
 	637,
 	643,
 	644,
-	645,
 	646,
 	647,
 	648,
@@ -280,7 +279,7 @@ const pokemonNotInGo = [
 	804,
 	805,
 	806,
-	807
+	807,
 ];
 const pokemonRegional = [
 	83,
@@ -318,7 +317,7 @@ const pokemonRegional = [
 	556,
 	561,
 	631,
-	632
+	632,
 ];
 
 let isShared = getParameterByName('shared');
@@ -351,7 +350,7 @@ function getStorageData() {
 				pokemonMissing.push(json_data[i]);
 			}
 		} else {
-			pokemonMissing = pokemonAll.map(mon => mon.idx);
+			pokemonMissing = pokemonAll.map((mon) => mon.idx);
 		}
 	}
 }
@@ -391,7 +390,7 @@ function refreshPokedex(filters) {
 }
 
 function calculateCaughtPokemon() {
-	return pokemonAll.map(mon => {
+	return pokemonAll.map((mon) => {
 		if (!pokemonMissing.includes(mon.idx)) {
 			return mon.idx;
 		}
@@ -406,7 +405,7 @@ function setPokedex(pokemon) {
 }
 
 function excludePokemon(master, filter) {
-	return master.filter(mon => {
+	return master.filter((mon) => {
 		if (!filter.includes(mon.idx)) {
 			return mon;
 		}
@@ -416,7 +415,7 @@ function excludePokemon(master, filter) {
 function excludeScanPokemon(master, filter) {
 	let caughtBaseEvolution = [];
 
-	master.filter(mon => {
+	master.filter((mon) => {
 		if (mon.base_evolution !== 0) {
 			if (!filter.includes(mon.base_evolution)) {
 				caughtBaseEvolution.push(mon.idx);
@@ -424,7 +423,7 @@ function excludeScanPokemon(master, filter) {
 		}
 	});
 
-	return master.filter(mon => {
+	return master.filter((mon) => {
 		if (!caughtBaseEvolution.includes(mon.idx)) {
 			return mon;
 		}
@@ -577,12 +576,12 @@ function cleanFullPokemonList() {
 function extract(array, min, max) {
 	var list = [];
 	array
-		.filter(mon => {
+		.filter((mon) => {
 			if (mon.idx >= min && mon.idx <= max) {
 				return mon;
 			}
 		})
-		.map(mon => {
+		.map((mon) => {
 			var be = mon.base_evolution ? mon.base_evolution : 0;
 			var originalMon = {
 				idx: mon.idx,
@@ -590,7 +589,7 @@ function extract(array, min, max) {
 				fullname: mon.name.eng,
 				name: mon.slug.eng,
 				base_evolution: be,
-				class: ''
+				class: '',
 			};
 
 			list.push(originalMon);
@@ -606,7 +605,7 @@ function extract(array, min, max) {
 							fullname: mon.name.eng,
 							name: mon.slug.eng,
 							base_evolution: be,
-							class: 'form-' + key
+							class: 'form-' + key,
 						};
 
 						list.push(monAlternate);

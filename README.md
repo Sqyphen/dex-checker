@@ -1,5 +1,7 @@
 # Dex checker
 
+**(unsupported - last updated 20/04/2020)**
+
 Visual display tool to help keep track of remaining Pokémon, featured in Niantic's Pokémon Go, to catch/evolve.
 
 It also uses localStorage to keep track of your selections.
